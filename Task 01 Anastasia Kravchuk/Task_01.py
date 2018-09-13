@@ -1,9 +1,9 @@
 """Task 01."""
 # ====================== IMPORT ======================
 
-import re
-import sys
 import glob
+import sys
+import re
 from time import localtime
 
 # ====================== Line 1 ======================
@@ -80,8 +80,6 @@ for file_name in sorted(python_files):
     with open(file_name) as f:
         for line in f:
             print('    ' + line.rstrip())
-
-    print
 
 # ====================== Line 10 ======================
 
