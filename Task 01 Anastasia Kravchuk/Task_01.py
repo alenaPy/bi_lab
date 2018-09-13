@@ -2,8 +2,8 @@
 # ====================== IMPORT ======================
 
 import glob
-import sys
 import re
+import sys
 from time import localtime
 
 # ====================== Line 1 ======================
