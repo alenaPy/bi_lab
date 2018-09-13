@@ -1,4 +1,4 @@
-on: 2
+version: 2
 workflows:
   version: 2
   test:
@@ -25,4 +25,3 @@ jobs:
       - checkout
       - run: sudo pip install tox
       - run: tox -epycodestyle
-
