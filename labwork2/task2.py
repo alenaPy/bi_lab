@@ -8,7 +8,7 @@ L = input('Enter number of items: \n')
 
 def cost(m, n, l):
     """Return total cost."""
-    c = (int(m) + int(n) / 100)*int(l)
+    c = (int(m) + int(n) / 100) * int(l)
     return c
 
 
