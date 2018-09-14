@@ -17,7 +17,7 @@ _cents = data_in.find(" cent")
 _for = data_in.find("for ")
 
 # remove possible whitespaces
-dollars = data_in[(_is+3):_dollars].strip()
+dollars = data_in[(_is + 3):_dollars].strip()
 cents = data_in[_dollars+8:_cents].strip()
 amount = re.sub('[a-zA-Z]', '', data_in[_for::]).strip()
 
