@@ -1,14 +1,20 @@
+"""Palindrome check program."""
 import re
 
+
 def reverse(s):
+    """Reversing the string."""
     return s[::-1]
 
+
 def is_palindrome(s):
+    """Palindrome check."""
     rev = reverse(s)
 
-    if (s == rev):
+    if s == rev:
         return True
     return False
+
 
 s = input("Enter a string:\n")
 s = s.lower()
