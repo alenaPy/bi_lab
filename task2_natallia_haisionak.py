@@ -12,8 +12,8 @@ print("It is palindrome" if s == s[::-1] else "NO")
 
 def price(m, n, l):
     """Purchase money calculation."""
-    pr = (m*100+n)*l
-    print('Total cost: {0} dollars {1} cents.'.format(pr//100, pr % 100))
+    pr = (m * 100 + n) * l
+    print('Total cost: {0} dollars {1} cents.'.format(pr // 100, pr % 100))
 
 
 price(5, 20, 3)
@@ -42,8 +42,8 @@ print(say_hi('Natasha', 30))
 
 def correct_sentence(text: str) ->str:
     """Correct sentence."""
-    text = text[:1].upper()+text[1:]
-    if text[len(text)-1] == '.':
+    text = text[:1].upper() + text[1:]
+    if text[len(text) - 1] == '.':
         text = text
     else:
         text = text + '.'
