@@ -11,7 +11,7 @@ for char in s:
     else:
         s = s.lower()
 
-for i in range(leng//2):
+for i in range(leng // 2):
     if s[i] != s[-leng - i]:
         print("It's not palindrome")
         quit()
