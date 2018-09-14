@@ -9,7 +9,8 @@ def total_cost(dollars, cents, items):
     """Total cost calculation."""
     total_dollars = int((dollars * 100 + cents) * items // 100)
     total_cents = int((dollars * 100 + cents) * items % 100)
-    print("Total cost is %d dollars and %d cents" % (total_dollars, total_cents))
+    text = "Total cost is %d dollars and %d cents"
+    print(text % (total_dollars, total_cents))
 
 
 total_cost(dollars, cents, items)
