@@ -3,7 +3,6 @@
 
 class BankAccount(object):
     """Print a string."""
-
     def __init__(self, initial_balance=0):
         """Print a string."""
         self.balance = initial_balance

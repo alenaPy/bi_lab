@@ -1,7 +1,4 @@
-
-# This program adds up integers in the command line
 """Print a string."""
-
 import sys
 try:
     total = sum(int(arg) for arg in sys.argv[1:])

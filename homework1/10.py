@@ -1,5 +1,4 @@
 """Print a string."""
-
 from time import localtime
 
 activities = {8: 'Sleeping',
