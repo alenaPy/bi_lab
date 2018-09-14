@@ -1,4 +1,6 @@
 """Completed tasks from site py.checkio.org."""
+
+
 # Exercise 1
 def say_hi(name: str, age: int) -> str:
     """Task Say Hi."""
