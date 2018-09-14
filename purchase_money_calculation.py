@@ -18,16 +18,16 @@ _for = data_in.find("for ")
 
 # remove possible whitespaces
 dollars = data_in[(_is + 3):_dollars].strip()
-cents = data_in[_dollars+8:_cents].strip()
+cents = data_in[_dollars + 8:_cents].strip()
 amount = re.sub('[a-zA-Z]', '', data_in[_for::]).strip()
 
 # calculate totals
-total_dollars = int(dollars)*int(amount)
-amount_cents = int(cents)*int(amount)
-dollars_in = int(amount_cents)/100
+total_dollars = int(dollars) * int(amount)
+amount_cents = int(cents) * int(amount)
+dollars_in = int(amount_cents) / 100
 
 # check cents for overflow
-if int(cents)*int(amount) < 100:
+if int(cents) * int(amount) < 100:
     total_cents = int(cents) * int(amount)
 else:
     total_dollars += int(dollars_in)
