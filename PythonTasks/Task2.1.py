@@ -1,4 +1,4 @@
-"""Palindrome check program."""
+"""Palindrome check."""
 import re
 
 
