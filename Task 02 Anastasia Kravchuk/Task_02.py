@@ -60,7 +60,7 @@ def say_hi(name: str, age: int):
 
 def correct_sentence(text: str) -> str:
     """Correct the given sentence."""
-    t = text[:1].upper() + text[1:]+'.' if not text.endswith('.') \
+    t = text[:1].upper() + text[1:] + '.' if not text.endswith('.') \
         else text.capitalize()
     return t
 
@@ -85,8 +85,8 @@ def second_index(text: str, symbol: str) -> [int, None]:
 
 def between_markers(text: str, begin: str, end: str):
     """Return substring between two given markers."""
-    if (text.count(end) > 0 and text.count(begin) > 0
-            and text.index(end) < text.index(begin)):
+    if (text.count(end) > 0 and text.count(begin) > 0 and
+            text.index(end) < text.index(begin)):
         return ''
     if text.count(begin) == 0:
         start = 0
