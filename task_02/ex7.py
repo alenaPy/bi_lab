@@ -12,7 +12,7 @@ def index_power(list_arg, n):
     if type(list_arg) is not list:
         raise Exception("Invalid argument type")
 
-    if n > len(list_arg)-1:
+    if n > len(list_arg) - 1:
         return -1
     else:
         return int(list_arg[n])**n
