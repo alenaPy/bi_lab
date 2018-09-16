@@ -105,12 +105,12 @@ if __name__ == '__main__':
         """Compare result of our function and right answer."""
         precision = 0.1 ** significant_digits
         return correct - precision < checked < correct + precision
-    res_third = "10.2-(-2.2)=12.4"
+    res_3 = "10.2-(-2.2)=12.4"
     assert almost_equal(difference(1, 2, 3), 2, 3), "3-1=2"
     assert almost_equal(difference(5, -5), 10, 3), "5-(-5)=10"
-    assert almost_equal(difference(10.2, -2.2, 0, 1.1, 0.5), 12.4, 3), res_third
+    assert almost_equal(difference(10.2, -2.2, 0, 1.1, 0.5), 12.4, 3), res_3
     assert almost_equal(difference(), 0, 3), "Empty"
-    print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
+    print("Coding complete? Click 'Check' to review your tests!")
 
 """Task_5 from CheckIO."""
 
@@ -126,7 +126,7 @@ def left_join(phrases):
 
 
 if __name__ == '__main__':
-    # These "asserts" using only for self-checking and not necessary for auto-testing
+    # These "asserts" using only for self-checking
     first_list = ("left", "right", "left", "stop")
     second_list = ("bright aright", "ok")
     third_list = ("brightness wright",)
@@ -136,4 +136,4 @@ if __name__ == '__main__':
     assert left_join(third_list) == "bleftness wleft", "One phrase"
     assert left_join(four_list) == "enough,jokes", "Nothing to replace"
 
-    print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
+    print("Coding complete? Click 'Check' to review your tests!")
