@@ -13,9 +13,11 @@ def say_hi(name: str, age: int) -> str:
 
 
 if __name__ == '__main__':
-    # These "asserts" using only for self-checking and not necessary for auto-testing
-    assert say_hi("Alex", 32) == "Hi. My name is Alex and I'm 32 years old", "First"
-    assert say_hi("Frank", 68) == "Hi. My name is Frank and I'm 68 years old", "Second"
+    # These "asserts" using only for self-checking
+    first_res = "Hi. My name is Alex and I'm 32 years old"
+    assert say_hi("Alex", 32) == first_res, "First"
+    second_res = "Hi. My name is Frank and I'm 68 years old"
+    assert say_hi("Frank", 68) == second_res, "Second"
     print('Done. Time to Check.')
 
 """Task_2 from CheckIO. """
@@ -45,7 +47,7 @@ if __name__ == '__main__':
     print("Example:")
     print(correct_sentence("greetings, friends"))
 
-    # These "asserts" are used for self-checking and not for an auto-testing
+    # These "asserts" are used for self-checking
     assert correct_sentence("greetings, friends") == "Greetings, friends."
     assert correct_sentence("Greetings, friends") == "Greetings, friends."
     assert correct_sentence("Greetings, friends.") == "Greetings, friends."
@@ -73,7 +75,7 @@ if __name__ == '__main__':
     print("Example:")
     print(first_word("Hello world"))
 
-    # These "asserts" are used for self-checking and not for an auto-testing
+    # These "asserts" are used for self-checking
     assert first_word("Hello world") == "Hello"
     assert first_word(" a word ") == "a"
     assert first_word("don't touch it") == "don't"
@@ -97,16 +99,16 @@ def difference(*args):
         return 0
 
 
-# These "asserts" using only for self-checking and not necessary for auto-testing
+# These "asserts" using only for self-checking
 if __name__ == '__main__':
     def almost_equal(checked, correct, significant_digits):
         """Compare result of our function and right answer."""
         precision = 0.1 ** significant_digits
         return correct - precision < checked < correct + precision
-
+    res_third = "10.2-(-2.2)=12.4"
     assert almost_equal(difference(1, 2, 3), 2, 3), "3-1=2"
     assert almost_equal(difference(5, -5), 10, 3), "5-(-5)=10"
-    assert almost_equal(difference(10.2, -2.2, 0, 1.1, 0.5), 12.4, 3), "10.2-(-2.2)=12.4"
+    assert almost_equal(difference(10.2, -2.2, 0, 1.1, 0.5), 12.4, 3), res_third
     assert almost_equal(difference(), 0, 3), "Empty"
     print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
 
@@ -117,16 +119,21 @@ def left_join(phrases):
     """Join strings and replace "right" to "left"."""
     new_string = []
     for i in phrases:
-        i = i.replace("right","left")
+        i = i.replace("right", "left")
         new_string.append(i)
     text = ','.join(new_string)
     return text
 
+
 if __name__ == '__main__':
     # These "asserts" using only for self-checking and not necessary for auto-testing
-    assert left_join(("left", "right", "left", "stop")) == "left,left,left,stop", "All to left"
-    assert left_join(("bright aright", "ok")) == "bleft aleft,ok", "Bright Left"
-    assert left_join(("brightness wright",)) == "bleftness wleft", "One phrase"
-    assert left_join(("enough", "jokes")) == "enough,jokes", "Nothing to replace"
+    first_list = ("left", "right", "left", "stop")
+    second_list = ("bright aright", "ok")
+    third_list = ("brightness wright",)
+    four_list = ("enough", "jokes")
+    assert left_join(first_list) == "left,left,left,stop", "All to left"
+    assert left_join(second_list) == "bleft aleft,ok", "Bright Left"
+    assert left_join(third_list) == "bleftness wleft", "One phrase"
+    assert left_join(four_list) == "enough,jokes", "Nothing to replace"
 
     print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
