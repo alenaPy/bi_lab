@@ -1,13 +1,9 @@
 # 1. on CheckiO your solution should be a function
 # 2. the function should return the right answer, not print it.
+# task1.
 
 
 def say_hi(name: str, age: int) -> str:
-
-    """In this mission you should write a function that introduce a person with a
-    given parameters in attributes.
-Input:  Two arguments. String and positive integer.Output:  String.
-"""
 
     return "Hi. My name is %s and I'm %d years old" % (name, age)
 
