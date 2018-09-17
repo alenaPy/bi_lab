@@ -4,10 +4,7 @@
 
 
 def generate_numbers(n=20):
-    """Func generates number for dictionary
-    :param n:
-    :return dictionary
-    """
+    """Func generates number for dictionary."""
 
     dict1 = {i: i ** 2 for i in range(1, n + 1)}
     return dict1
@@ -19,11 +16,9 @@ print(generate_numbers(20))
 
 
 def count_characters(count_me_string):
-    """Count and return the numbers of each character in a count_me_string argument
-    :param count_me_string:
-    :return: dictionary
-    """
-    dict2 = {i: sum(x is i for x in count_me_string) for i in set(list(count_me_string))}
+    """Count and return the numbers of each character in the string argument."""
+    dict2 = {i: sum(x is i for x in count_me_string) for i in
+             set(list(count_me_string))}
     return dict2
 
 
