@@ -2,7 +2,7 @@
 
 
 def say_hi(name: str, age: int) -> str:
-    """My code here."""
+    """My code."""
     return "Hi. My name is {0} and I'm {1} years old".format(name, age)
 
 

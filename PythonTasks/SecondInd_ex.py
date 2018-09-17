@@ -2,7 +2,7 @@
 
 
 def second_index(text: str, symbol: str) -> [int, None]:
-    """My code here."""
+    """My code."""
     if text.count(symbol) < 2:
         return None
     first = text.find(symbol)

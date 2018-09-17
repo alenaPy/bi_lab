@@ -2,7 +2,7 @@
 
 
 def correct_sentence(text: str) -> str:
-    """My code here."""
+    """My code."""
     if not text.endswith('.'):
         text += '.'
     return text[0].upper() + text[1:]

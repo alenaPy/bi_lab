@@ -2,7 +2,7 @@
 
 
 def first_word(text: str) -> str:
-    """My code here."""
+    """My code."""
     text = text.replace(',', ' ')
     text = text.replace('.', ' ')
     text = text.strip()
