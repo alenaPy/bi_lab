@@ -77,7 +77,7 @@ def second_index(text: str, symbol: str) -> [int, None]:
     count_s = text.count(symbol)
     first_pos = text.find(symbol)
     if count_s >= 2:
-        pos = text.find(symbol, first_pos+1)
+        pos = text.find(symbol, first_pos + 1)
     else:
         pos = None
     return pos
