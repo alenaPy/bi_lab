@@ -8,7 +8,8 @@ A string can start with a letter or, for example, a dot or space.
 A word can contain an apostrophe and it's a part of a word.
 The whole text can be represented with one word and that's it.
 Input:  A string.
-Output:  A string."""
+Output:  A string.
+"""
 
     for char in text:
         if char in " ?.,!/;:":
