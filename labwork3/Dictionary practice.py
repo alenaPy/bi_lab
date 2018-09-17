@@ -16,7 +16,7 @@ print(generate_numbers(20))
 
 
 def count_characters(count_me_string):
-    """Count and return the numbers of each character in the string argument."""
+    """Count and return the numbers of each character in the str argument."""
     dict2 = {i: sum(x is i for x in count_me_string) for i in
              set(list(count_me_string))}
     return dict2
