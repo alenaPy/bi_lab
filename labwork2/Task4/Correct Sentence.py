@@ -9,8 +9,7 @@ Output: A string."""
 
 def correct_sentence(text: str) -> str:
     """Returns a corrected sentence which starts with a capital letter
-    and ends with a dot.
-    """
+    and ends with a dot."""
     # your code here
     text = text[0].upper() + text[1:]
     if text[len(text) - 1] != '.':
