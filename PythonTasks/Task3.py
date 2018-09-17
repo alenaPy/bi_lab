@@ -54,4 +54,3 @@ def count_characters(str):
 
 
 print(count_characters('abcdefgabc'))
-# Task4.1

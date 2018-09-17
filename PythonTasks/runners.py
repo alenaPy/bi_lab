@@ -1,4 +1,4 @@
-"""Run the functions."""
+"""Run the functions program."""
 import pytasks
 func_dict = {'generate_numbers': pytasks.generate_numbers,
              'count_characters': pytasks.count_characters,

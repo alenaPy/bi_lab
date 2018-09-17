@@ -20,7 +20,7 @@ def count_characters(str):
 
 
 def fizzbuzz():
-    """Fizz&Buzz check."""
+    """FizzBuzz check."""
     list1 = []
     for num in range(1, 101):
 
