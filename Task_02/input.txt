@@ -1,0 +1,1 @@
+one item price is 3 dollars 26 cents, calculate price for 34 items
