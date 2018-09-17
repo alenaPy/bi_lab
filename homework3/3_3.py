@@ -8,6 +8,7 @@ def generate_numbers(number=20):
         dict_first[x] = x * x
     return dict_first
 
+
 print(generate_numbers())
 print()
 
