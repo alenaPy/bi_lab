@@ -10,7 +10,7 @@ def generate_numbers(n=20):
     import math
     dic = {}
     for x in range(n):
-        dic[x+1] = int(math.pow(x + 1, 2))
+        dic[x + 1] = int(math.pow(x + 1, 2))
     return dic
 
 

@@ -10,7 +10,7 @@ def generate_numbers(n=20):
     import math
     dic = {}
     for x in range(n):
-        dic[x+1] = int(math.pow(x + 1, 2))
+        dic[x + 1] = int(math.pow(x + 1, 2))
     return dic
 
 
@@ -43,7 +43,7 @@ def fb(n=20):
 
 def is_palindrome(line='mmm'):
     import re
-    line = re.sub('[ ,&?!\'.;:*/_0132456789\-]', '',line)
+    line = re.sub('[ ,&?!\'.;:*/_0132456789\-]', '', line)
     if line != "" and line == ''.join(reversed(line)):
         return True
     else:

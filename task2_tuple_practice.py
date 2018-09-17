@@ -17,4 +17,4 @@ print("list from tuple - {0}".format(list1))
 
 a, b, c = 'a', 2, 'gamma'
 tuple2 = (('a', 'b', 'c'), )
-print("tuple with one element - {0}".format(tuple2,len(tuple2)))
+print("tuple with one element - {0}".format(tuple2, len(tuple2)))
