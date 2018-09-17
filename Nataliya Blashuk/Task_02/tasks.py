@@ -10,7 +10,7 @@ def say_hi(name: str, age: int) -> str:
 # Exercise 2
 def correct_sentence(text: str) -> str:
     """Task Correct Sentence."""
-    text = text[::1].capitalize()
+    text = text.capitalize()
     if not text.endswith("."):
         text += "."
     return text
