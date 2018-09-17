@@ -5,7 +5,7 @@ import re
 
 def generate_numbers(number=20):
     """Generate numbers for dictionary: {i, i^2} in given range (1,n)."""
-    return {i: i ** 2 for i in range(1, number+1)}
+    return {i: i ** 2 for i in range(1, number + 1)}
 
 
 def cogenerate_numbers(count_me_string='abcdefgabc'):

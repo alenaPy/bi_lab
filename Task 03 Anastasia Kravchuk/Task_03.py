@@ -60,7 +60,7 @@ len(tuple4)
 
 def generate_numbers(number=20):
     """Generate dictionary: {number, number^2}."""
-    return {i: i ** 2 for i in range(1, number+1)}
+    return {i: i ** 2 for i in range(1, number + 1)}
 
 
 generate_numbers()
