@@ -15,14 +15,14 @@ Output:  A string.
 
     """
     if begin not in text:
-     first_symb = 0
+        first_symb = 0
     else:
-     first_symb = text.find(begin) + len(begin)
+        first_symb = text.find(begin) + len(begin)
 
     if end in text:
-     second_symb = text.find(end)
+        second_symb = text.find(end)
     else:
-     second_symb = len(text)
+        second_symb = len(text)
 
     return text[first_symb:second_symb]
 

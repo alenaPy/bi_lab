@@ -27,7 +27,6 @@ if __name__ == '__main__':
 
 print(correct_sentence("greetings, friends"))
 
- # These "asserts" are used for self-checking and not for an auto-testing
 
 assert correct_sentence("greetings, friends") == "Greetings, friends."
 assert correct_sentence("Greetings, friends") == "Greetings, friends."

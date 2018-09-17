@@ -14,7 +14,7 @@ Output:  Int or None
 
     """
 
-    if text.count(symbol)<2:
+    if text.count(symbol) < 2:
         return None
 
     return text.find(symbol, text.find(symbol)+1)
@@ -24,9 +24,6 @@ if __name__ == '__main__':
 
     print('Example:')
     print(second_index("sims", "s"))
-
-
-    # These "asserts" are used for self-checking and not for an auto-testing
 
     assert second_index("sims", "s") == 3, "First"
     assert second_index("find the river", "e") == 12, "Second"

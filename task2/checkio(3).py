@@ -16,7 +16,6 @@ Output:  A string.
 
     """
 
-  # your code here
     for char in text:
         if char in " ?.,!/;:":
             text = (text.replace(char, ' '))
@@ -32,7 +31,6 @@ if __name__ == '__main__':
 
 print(first_word("Hello world"))
 
- # These "asserts" are used for self-checking and not for an auto-testing
 
 assert first_word("Hello world") == "Hello"
 assert first_word(" a word ") == "a"
