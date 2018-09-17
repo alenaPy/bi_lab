@@ -4,8 +4,7 @@
 
 
 def generate_numbers(n=20):
-    """
-    func generates number for dictionary
+    """Func generates number for dictionary
     :param n:
     :return dictionary
     """
@@ -20,8 +19,7 @@ print(generate_numbers(20))
 
 
 def count_characters(count_me_string):
-    """
-    Count and return the numbers of each character in a count_me_string argument
+    """Count and return the numbers of each character in a count_me_string argument
     :param count_me_string:
     :return: dictionary
     """

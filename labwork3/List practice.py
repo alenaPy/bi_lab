@@ -22,5 +22,3 @@ lst5 = lst3[:]
 lst5.insert(1, '2a')
 print('LIST3: %s' % lst3)
 print('LIST5: %s' % lst5)
-
-

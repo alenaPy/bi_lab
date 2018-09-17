@@ -17,4 +17,3 @@ a, b, c = 'a', 2, 'gamma'
 # Task 2.4
 t4 = (t2,)
 print(len(t4))
-
