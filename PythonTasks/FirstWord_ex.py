@@ -1,8 +1,8 @@
+"""First word."""
+
+
 def first_word(text: str) -> str:
-    """
-        returns the first word in a given text.
-    """
-    # your code here
+    """My code here."""
     text = text.replace(',', ' ')
     text = text.replace('.', ' ')
     text = text.strip()

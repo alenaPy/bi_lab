@@ -1,9 +1,8 @@
+"""Correct sentence."""
+
+
 def correct_sentence(text: str) -> str:
-    """
-        returns a corrected sentence which starts with a capital letter
-        and ends with a dot.
-    """
-    # your code here
+    """My code here."""
     if not text.endswith('.'):
         text += '.'
     return text[0].upper() + text[1:]
