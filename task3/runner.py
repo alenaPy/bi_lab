@@ -1,5 +1,6 @@
 """Functions runner module."""
-from inspect import getmembers, isfunction
+from inspect import getmembers,\
+    isfunction
 import pytasks
 
 
