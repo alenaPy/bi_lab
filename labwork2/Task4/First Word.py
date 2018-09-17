@@ -9,9 +9,7 @@ Output: A string."""
 
 
 def first_word(text):
-    """
-            returns substring first word
-    """
+    """Returns substring first word."""
 
     text = text.replace(',', ' ').replace('.', ' ')
     text = text.lstrip()
