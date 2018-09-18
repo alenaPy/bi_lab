@@ -3,7 +3,7 @@
 # 1
 
 list1 = [x + y for x in('a', 'b') for y in('b', 'c', 'd')]
-list2 = list1[0:len(list1) - 1:2]
+list2 = list1[0:0:2]
 list3 = [str(x) + y for x in [1, 2, 3, 4] for y in ['a']]
 print(list3.pop(1))
 list4 = list3[:]
@@ -34,8 +34,7 @@ print(generate_numbers())
 
 def count_characters(count_me_string) ->dict:
     """Count and return numbers of each character."""
-    return {i: sum(x is i for x in count_me_string) for i in
-            sorted(set(list(count_me_string)))}
+    return {x: count_me_string.count(x) for x in count_me_string}
 
 
 print(count_characters('abcdefgabc'))

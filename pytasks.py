@@ -32,5 +32,4 @@ def generate_numbers(n=20):
 def count_characters():
     """Count and return numbers of each character."""
     count_me_string = input("Enter string: ")
-    print({i: sum(x is i for x in count_me_string) for i in
-           sorted(set(list(count_me_string)))})
+    print({x: count_me_string.count(x) for x in count_me_string})
