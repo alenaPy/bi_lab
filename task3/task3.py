@@ -4,7 +4,7 @@ import Task_4
 # List practice
 # 1.1
 
-List = [('{0}{1}'.format(x,y)) for x in ['a', 'b'] for y in ['b', 'c', 'd']]
+List = [('{0}{1}'.format(x, y)) for x in ['a', 'b'] for y in ['b', 'c', 'd']]
 print(List)
 
 # 1.2
@@ -14,7 +14,7 @@ print(List_2)
 
 # 1.3
 
-List_3 = [('{0}a'.format(x)) for x in range(1,5)]
+List_3 = [('{0}a'.format(x)) for x in range(1, 5)]
 print(List_3)
 
 # 1.4
@@ -47,7 +47,7 @@ a, b, с = 'a', 2, 'gamma'
 
 # 2.4
 
-Tuple_4 = (Tuple_2,)
+Tuple_4 = (Tuple_2, )
 len(Tuple_4)
 print(Tuple_4)
 
@@ -102,4 +102,3 @@ runner('cogenerate_numbers', 'generate_numbers')
 runner('cogenerate_numbers', 'generate_numbers', 'fizz_buzz', 'isPalindrome')
 runner('isPalindrome')
 runner('34', 'cogenerate_numbers')
-
