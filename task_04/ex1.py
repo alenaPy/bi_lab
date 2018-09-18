@@ -33,9 +33,9 @@ years = open('years.txt', 'w', encoding='UTF-8')
 
 for obj in film:
     top250_movies.write(obj + '\n')
-for key in rank:
+for key in sorted(rank):
     ratings.write(key + ' ' + str(rank[key]) + '\n')
-for key in year:
+for key in sorted(year):
     years.write(key + ' ' + str(year[key]) + '\n')
 
 top250_movies.close()
