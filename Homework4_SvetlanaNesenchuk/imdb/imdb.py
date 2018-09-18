@@ -9,7 +9,8 @@ try:
         for line in file:
             if count < 250:
                 movies0 = line.strip().split('  ')
-                movies.append([movies0[2].lstrip(), movies0[3].rstrip(')').rstrip('/I').split('(')])
+                movies.append([movies0[2].lstrip(), movies0[3].
+                              rstrip(')').rstrip('/I').split('(')])
                 count += 1
 except FileNotFoundError:
     print("This file doesn't exist")
