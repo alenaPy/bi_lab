@@ -15,20 +15,25 @@ class Dispenser:
         """Add fuel."""
         if (litres + self.fuel_balance) <= self.capacity:
             self.fuel_balance += litres
-            print("Refuel dispenser number " + str(self.num) + " with " + str(litres) +
+            print("Refuel dispenser number " + str(self.num) + " with " + str(
+                litres) +
                   " litres. Total fuel balance = " + str(self.fuel_balance))
         else:
-            print("Dispenser number: " + str(self.num) + " can be refueled only by " +
+            print("Dispenser number: " + str(
+                self.num) + " can be refueled only by " +
                   str(self.capacity - self.fuel_balance) + " litres")
 
     def refill_car(self, litres):
         """Refill car."""
         if (self.fuel_balance - litres) >= 0:
             self.fuel_balance -= litres
-            print("Refill car from dispenser number " + str(self.num) + " with " + str(
-                litres) + " litres. Total fuel balance = " + str(self.fuel_balance))
+            print("Refill car from dispenser number " + str(
+                self.num) + " with " + str(
+                litres) + " litres. Total fuel balance = " + str(
+                self.fuel_balance))
         else:
-            print("Dispenser number: " + str(self.num) + " - not enough fuel.  Available " +
+            print("Dispenser number: " + str(
+                self.num) + " - not enough fuel.  Available " +
                   str(self.fuel_balance) + " litres")
 
 
