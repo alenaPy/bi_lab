@@ -5,7 +5,7 @@ Usages of list comprehensions.
 """
 
 
-list1 = [i+j for i in ['a', 'b'] for j in ['b', 'c', 'd']]
+list1 = [i + j for i in ['a', 'b'] for j in ['b', 'c', 'd']]
 print("first list - {0} ".format(list1))
 
 # slice list above
@@ -13,7 +13,7 @@ list_slice = list1[::2]
 print("sliced list - {0}".format(list_slice))
 
 
-list2 = [str(i)+'a' for i in range(1, 5)]
+list2 = [str(i) + 'a' for i in range(1, 5)]
 print("second list - {0}".format(list2))
 
 # pop

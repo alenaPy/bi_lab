@@ -7,15 +7,10 @@ pytasks.
 
 def generate_numbers(n=20):
     """Return a dictionary with square if keys"""
-    import math
     dic = {}
     for x in range(1, n+1):
         dic[x] = int(pow(x, 2))
     return dic
-
-
-if __name__ == '__main__':
-    print(generate_numbers(20))
 
 
 def count_characters(cnt_str='aaabndlsbfjks'):
