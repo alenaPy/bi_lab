@@ -1,9 +1,6 @@
 """Pytasks Module."""
 
 
-import re
-
-
 def generate_numbers(n=20):
     """Func generates number for dictionary."""
 

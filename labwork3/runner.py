@@ -28,7 +28,6 @@ def runner(*func):
 
             continue
 
-
         else:
 
             print(dictionary[function]())
