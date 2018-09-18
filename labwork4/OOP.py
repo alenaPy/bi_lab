@@ -1,7 +1,7 @@
 """This is simulation of Student payment system in Univesity."""
 
 
-class Student:
+class Student(object):
 
     def __init__(self, first, last, card, amount, discount=1):
         """student with default discount=1"""
@@ -16,9 +16,10 @@ class Student:
     def print_student(self):
         """Prints all information about the student"""
         print(' First name: {} \n Last name: {} \n ID_card: {} \n Email: {} '
-              '\n Payment state: {} \n Amount: {} \n Discount: {}'.format(
-            self.first, self.last, self.card, self.email, self.payment_state,
-            self.amount, self.discount))
+              '\n Payment state: {} \n Amount: {} \n '
+              'Discount: {}'.format(self.first,self.last, self.card,
+                                    self.email, self.payment_state,
+                                    self.amount, self.discount))
 
     def fullname(self):
         """Create full name from two words"""
