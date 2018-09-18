@@ -3,7 +3,7 @@ from datetime import date
 from datetime import timedelta
 
 
-class BookingRoom():
+class BookingRoom(object):
     """Class represents booking of some room in the hotel."""
 
     hotel_rooms = [100, 101, 102, 103, 104, 201, 202, 203,
