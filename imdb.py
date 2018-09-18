@@ -38,7 +38,8 @@ d_years = dict((i, years.count(i)) for i in years)
 
 years_list = open("years.txt", "w")
 for i in d_years:
-    years_list.write(str(i) + ' ' + '*' * d_years[i] + ' ' + str(d_years[i]) + '\n')
+    years_list.write(str(i) + ' ' + '*' * d_years[i] + ' ' +
+                     str(d_years[i]) + '\n')
 years_list.close()
 
 # List of ratings.
@@ -51,5 +52,6 @@ d_rate = dict((i, r.count(i)) for i in r)
 
 rate_list = open("rating.txt", "w")
 for i in d_rate:
-    rate_list.write(str(i) + ' ' + '*' * d_rate[i] + ' ' + str(d_rate[i]) + '\n')
+    rate_list.write(str(i) + ' ' + '*' * d_rate[i] + ' ' +
+                    str(d_rate[i]) + '\n')
 rate_list.close()
