@@ -1,8 +1,9 @@
 """Simulator of booking rooms in some hotel."""
-from datetime import date, timedelta
+from datetime import date
+from datetime import timedelta
 
 
-class BookingRoom:
+class BookingRoom():
     """Class represents booking of some room in the hotel."""
 
     hotel_rooms = [100, 101, 102, 103, 104, 201, 202, 203,
