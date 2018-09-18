@@ -14,10 +14,6 @@ def generate_numbers(n=20):
     return dic
 
 
-if __name__ == '__main__':
-    print(generate_numbers(3))
-
-
 def count_characters(cnt_str):
     """Return a dictionary with symbols count in a given line"""
     dic = {}
@@ -28,7 +24,3 @@ def count_characters(cnt_str):
                 cnt += 1
         dic[cnt_str[x]] = cnt
     return dic
-
-
-if __name__ == '__main__':
-    print(count_characters('aabhjdsklagdkjcda'))
