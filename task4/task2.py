@@ -3,7 +3,7 @@
 from random import randint
 
 
-class Coffee:
+class Coffee(object):
     """Class for coffee machine."""
 
     coffee_types = ['latte', 'mocaccino', 'macchiato',
