@@ -3,8 +3,8 @@
 from random import randint
 
 
-class Coffemachine:
-    """Class for coffe machine."""
+class Coffee:
+    """Class for coffee machine."""
 
     coffee_types = ['latte', 'mocaccino', 'macchiato',
                     'hot milk', 'ristretto', 'hot chocolate',
@@ -19,8 +19,8 @@ class Coffemachine:
         self.water_amount = water_amount
         self.items = []
         for i in range(1, item_amount + 1):
-            item = [Coffemachine.coffee_types[
-                        randint(0, len(Coffemachine.coffee_types)-1)]]
+            item = [Coffee.coffee_types[
+                        randint(0, len(Coffee.coffee_types) - 1)]]
             if item not in self.items:
                 self.items.append(item)
 
@@ -31,5 +31,5 @@ class Coffemachine:
             print(i)
 
 
-machine1 = Coffemachine('BaristaMax', 200, 200, 200, 4)
+machine1 = Coffee('BaristaMax', 200, 200, 200, 4)
 machine1.display_items()
