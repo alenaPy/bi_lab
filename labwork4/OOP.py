@@ -17,7 +17,7 @@ class Student(object):
         """Prints all information about the student"""
         print(' First name: {} \n Last name: {} \n ID_card: {} \n Email: {} '
               '\n Payment state: {} \n Amount: {} \n '
-              'Discount: {}'.format(self.first,self.last, self.card,
+              'Discount: {}'.format(self.first, self.last, self.card,
                                     self.email, self.payment_state,
                                     self.amount, self.discount))
 
