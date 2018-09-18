@@ -8,7 +8,7 @@ pytasks.
 def generate_numbers(n=20):
     """Return a dictionary with square if keys"""
     dic = {}
-    for x in range(1, n+1):
+    for x in range(1, n + 1):
         dic[x] = int(pow(x, 2))
     return dic
 
