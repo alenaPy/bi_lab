@@ -4,7 +4,7 @@ from random import randint
 from re import sub
 
 
-class Coffee:
+class Coffee(object):
     """Class for coffe machine."""
 
     coffee_types = ['latte', 'mocaccino', 'macchiato',
