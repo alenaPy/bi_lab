@@ -22,6 +22,7 @@ try:
                 break
 except FileNotFoundError:
     print('File not found')
+    exit()
 
 movies_names = open("top250_movies.txt", "w")
 for i in range(250):
