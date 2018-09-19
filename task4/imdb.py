@@ -23,17 +23,26 @@ try:
         for line in imdb:
             if cnt < 250:
                 title = line.strip().split('  ')[3].split('(')[0].strip()
-                year = line[line.find('(') + 1:line.find(')')]
+                year = line[line.find('(') + 1:line.find(')')].rstrip('/I)')
                 rate = line.strip().split('  ')[2].strip()
-                movies.insert(cnt, title)
+                movies.append(title)
                 rates.append(rate)
                 years.append(year)
                 cnt += 1
-    fo = open("top250_movies.txt", "w", encoding='iso-8859-1')
-    fo.write('\n'.join(movies))
-    fo = open("ratings.txt", "w", encoding='iso-8859-1')
-    fo.write(str(count_(rates)))
-    fo = open("years.txt", "w", encoding='iso-8859-1')
-    fo.write(str(count_(years)))
+
+    rates = dict(count_(rates))
+    years = dict(count_(years))
+
+    titles = open("top250_movies.txt", "w", encoding='iso-8859-1')
+    titles.write('\n'.join(movies))
+
+    ratings = open("ratings.txt", "w", encoding='iso-8859-1')
+    for i in sorted(rates):
+        ratings.write(i + ' ' + '*' * rates[i] + '\n')
+
+    years_ = open("years.txt", "w", encoding='iso-8859-1')
+    for i in sorted(years):
+        years_.write(i + ' ' + '*' * years[i] + '\n')
+
 except FileNotFoundError:
     print('File not found!')
