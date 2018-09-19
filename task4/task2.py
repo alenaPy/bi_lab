@@ -44,16 +44,20 @@ class Coffee:
         self.display_items()
         choice = [input("Make your choice --> ").lower()]
         if choice in self.items:
-            if self.water_amount > 10 and self.sugar_amount > 10 and self.coffee_amount > 10:
+            if self.water_amount > 10 and \
+                    self.sugar_amount > 10 and \
+                    self.coffee_amount > 10:
                 if with_sugar is True:
                     self.water_amount -= 10
                     self.sugar_amount -= 10
                     self.coffee_amount -= 5
-                    print("Here is your your {0} with sugar.".format(sub('[\'\][]', '', choice[0])))
+                    print("Here is your your {0} with sugar."
+                          .format(sub('[\'\][]', '', choice[0])))
                 else:
                     self.water_amount -= 10
                     self.coffee_amount -= 5
-                    print("Here is your your {0}.".format(sub('[\'\][]', '', choice[0])))
+                    print("Here is your your {0}."
+                          .format(sub('[\'\][]', '', choice[0])))
             else:
                 print("Sorry, machine is empty.")
         else:
