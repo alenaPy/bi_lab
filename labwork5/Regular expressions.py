@@ -21,12 +21,12 @@ print(re.findall(r'\d+', text))
 s = 'wreyru erfh    elf_jrlfje ldfl nfn fn6 7 86 340'
 
 
-def replace_char (match_object):
+def replace_char(match_object):
     if match_object[0] == ' ':
         return '_'
     else:
         return ' '
 
 
-s = re.sub('\s|_', replace_char, s) # что, чем, где
+s = re.sub('\s|_', replace_char, s)  # что, чем, где
 print(s)
