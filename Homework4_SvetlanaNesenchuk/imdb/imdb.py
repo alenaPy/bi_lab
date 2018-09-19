@@ -26,7 +26,7 @@ with open('titles.txt', 'w', encoding='UTF-8') as titles_file:
         titles_file.write(item[1][0] + '\n')
 with open('years.txt', 'w', encoding='UTF-8') as years_file:
     for key, val in year_count.items():
-        years_file.write(key + ': ' + str(val) + '\n')
+        years_file.write(key + ': ' + '+' * val + '\n')
 with open('ratings.txt', 'w', encoding='UTF-8') as ratings_file:
     for key, val in rating_count.items():
-        ratings_file.write(key + ': ' + str(val) + '\n')
+        ratings_file.write(key + ': ' + '+' * val + '\n')
