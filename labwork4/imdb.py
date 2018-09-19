@@ -27,11 +27,11 @@ with open('rates.txt', 'w', encoding='UTF-8') as rts:
 
     dict1 = dict((x, rates.count(x)) for x in set(rates))
     for x in dict1:
-        rts.write(x + ' ' + str(dict1[x]) + '\n')
+        rts.write(str(x) + ' ' + '*' * dict1[x] + ' ' + str(dict1[x]) + '\n')
 
 with open('years.txt', 'w', encoding='UTF-8') as yrs:
 
     dict2 = dict((x, years.count(x)) for x in set(years))
 
     for x in dict2:
-        yrs.write(x + ' ' + str(dict2[x]) + '\n')
+        yrs.write(str(x) + ' ' + '*' * dict2[x] + ' ' + str(dict2[x]) + '\n')
