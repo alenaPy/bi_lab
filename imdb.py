@@ -33,8 +33,10 @@ write_movies.close()
 dict_year = dict((i, list3.count(i)) for i in list3)
 
 write_year = open("years.txt", "w")
-for i in dict_year:
-    write_year.write(str(i).rstrip('/I') + ' ' + str(dict_year[i]) + '\n')
+for key in sorted(dict_year):
+    a = str(key).rstrip('/I') + ' '
+    sort = '*' * dict_year[key]
+    write_year.write(a + sort + ' ' + str(dict_year[key]) + '\n')
 write_year.close()
 
 
@@ -42,5 +44,6 @@ dict_rat = dict((i, list2.count(i)) for i in list2)
 
 write_rat = open("rat.txt", "w")
 for i in dict_rat:
-    write_rat.write(str(i) + ' ' + str(dict_rat[i]) + '\n')
+    a = str(i) + ' '
+    write_rat.write(a + '*' * dict_rat[i] + ' ' + str(dict_rat[i]) + '\n')
 write_rat.close()
