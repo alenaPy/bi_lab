@@ -70,7 +70,7 @@ elif arguments.rate:
 elif arguments.all:
     print('----------Title---------------Rate--Year--')
     for i, value in enumerate(titles):
-        print(str(i + 1) + '. ' + titles[i] + ' - ' + ratings[i] + 
+        print(str(i + 1) + '. ' + titles[i] + ' - ' + ratings[i] +
               ' - ' + years[i] + '\n')
 elif arguments.histogram == 'rating':
     print('Histogram for quantity of films for each rating')
@@ -85,6 +85,6 @@ elif arguments.histogram == 'year':
 else:
     with open(arguments.output + '.txt', 'w', encoding='UTF-8') as file:
         for i, value in enumerate(titles):
-            file.write(str(i + 1) + '. ' + titles[i] + ' - ' + 
+            file.write(str(i + 1) + '. ' + titles[i] + ' - ' +
                        ratings[i] + ' - ' + years[i] + '\n')
     print('Data was successfully written to the file.')
