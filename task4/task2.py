@@ -21,8 +21,8 @@ class Coffee:
         self.water_amount = water_amount
         self.items = []
         while len(self.items) < item_amount:
-            item = [Coffee.coffee_types[
-                        randint(0, len(Coffee.coffee_types) - 1)]]
+            item = [Coffee.coffee_types[randint(0,
+                                                len(Coffee.coffee_types) - 1)]]
             if item not in self.items:
                 self.items.append(item)
 
