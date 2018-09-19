@@ -4,7 +4,7 @@ from random import randint
 from re import sub
 
 
-class Coffemachine:
+class Coffee:
     """Class for coffe machine."""
 
     coffee_types = ['latte', 'mocaccino', 'macchiato',
@@ -21,8 +21,8 @@ class Coffemachine:
         self.water_amount = water_amount
         self.items = []
         while len(self.items) < item_amount:
-            item = [Coffemachine.coffee_types[
-                        randint(0, len(Coffemachine.coffee_types) - 1)]]
+            item = [Coffee.coffee_types[
+                        randint(0, len(Coffee.coffee_types) - 1)]]
             if item not in self.items:
                 self.items.append(item)
 
@@ -65,7 +65,7 @@ class Coffemachine:
         self.water_amount += water
 
 
-machine1 = Coffemachine('BaristaMax', 200, 200, 200, 4)
+machine1 = Coffee('BaristaMax', 200, 200, 200, 4)
 machine1.get_coffee(True)
 machine1.display_amount()
 machine1.fill_the_machine(100, 100, 100)
