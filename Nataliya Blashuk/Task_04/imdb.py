@@ -31,7 +31,7 @@ except FileNotFoundError:
 
 films_250 = open("top250_movies.txt", "w")
 for i in range(250):
-    films_250.write("%d. %s \n" % (i+1, films[i][0]))
+    films_250.write("%d. %s \n" % (i + 1, films[i][0]))
 films_250.close()
 
 for i in range(250):
@@ -53,6 +53,5 @@ dict_rate = dict(sorted((i, film_rating.count(i)) for i in film_rating))
 
 rate_file = open("rating.txt", "w")
 for i in dict_rate:
-    rate_file.write(str(i) + ": " + "|" * dict_rate[i]
-                    + " " + str(dict_rate[i]) + "\n")
-
+    rate_file.write(str(i) + ": " + "|" * dict_rate[i] +
+                    " " + str(dict_rate[i]) + "\n")
