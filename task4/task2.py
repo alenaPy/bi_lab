@@ -22,7 +22,7 @@ class Coffemachine:
         self.items = []
         while len(self.items) < item_amount:
             item = [Coffemachine.coffee_types[
-                        randint(0, len(Coffemachine.coffee_types)-1)]]
+                        randint(0, len(Coffemachine.coffee_types) - 1)]]
             if item not in self.items:
                 self.items.append(item)
 
@@ -70,4 +70,3 @@ machine1.get_coffee(True)
 machine1.display_amount()
 machine1.fill_the_machine(100, 100, 100)
 machine1.display_amount()
-
