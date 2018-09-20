@@ -1,0 +1,250 @@
+1. The Shawshank Redemption  9.2 1994
+2. The Godfather  9.2 1972
+3. The Godfather: Part II  9.0 1974
+4. The Dark Knight  9.0 2008
+5. 12 Angry Men  8.9 1957
+6. Schindler's List  8.9 1993
+7. Pulp Fiction  8.9 1994
+8. The Lord of the Rings: The Return of the King  8.9 2003
+9. Il buono, il brutto, il cattivo  8.8 1966
+10. Fight Club  8.8 1999
+11. The Lord of the Rings: The Fellowship of the Ring  8.8 2001
+12. Forrest Gump  8.7 1994
+13. Star Wars: Episode V - The Empire Strikes Back  8.7 1980
+14. Inception  8.7 2010
+15. The Lord of the Rings: The Two Towers  8.7 2002
+16. One Flew Over the Cuckoo's Nest  8.7 1975
+17. Goodfellas  8.7 1990
+18. The Matrix  8.7 1999
+19. Shichinin no samurai  8.6 1954
+20. Star Wars  8.6 1977
+21. Cidade de Deus  8.6 2002
+22. Se7en  8.6 1995
+23. The Silence of the Lambs  8.6 1991
+24. It's a Wonderful Life  8.6 1946
+25. La vita è bella  8.6 1997
+26. The Usual Suspects  8.6 1995
+27. Léon  8.5 1994
+28. Saving Private Ryan  8.5 1998
+29. Sen to Chihiro no kamikakushi  8.5 2001
+30. Coco  8.5 2017
+31. American History X  8.5 1998
+32. C'era una volta il West  8.5 1968
+33. Interstellar  8.5 2014
+34. The Green Mile  8.5 1999
+35. Psycho  8.5 1960
+36. Casablanca  8.5 1942
+37. City Lights  8.5 1931
+38. Intouchables  8.5 2011
+39. Modern Times  8.5 1936
+40. The Pianist  8.5 2002
+41. Raiders of the Lost Ark  8.5 1981
+42. The Departed  8.5 2006
+43. Rear Window  8.5 1954
+44. Terminator 2: Judgment Day  8.5 1991
+45. Back to the Future  8.5 1985
+46. Whiplash  8.5 2014
+47. Gladiator  8.5 2000
+48. The Lion King  8.5 1994
+49. The Prestige  8.5 2006
+50. Memento  8.5 2000
+51. Apocalypse Now  8.5 1979
+52. Alien  8.4 1979
+53. The Great Dictator  8.4 1940
+54. Sunset Blvd.  8.4 1950
+55. Nuovo Cinema Paradiso  8.4 1988
+56. Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb  8.4 1964
+57. Das Leben der Anderen  8.4 2006
+58. Hotaru no haka  8.4 1988
+59. Paths of Glory  8.4 1957
+60. Django Unchained  8.4 2012
+61. The Shining  8.4 1980
+62. WALL·E  8.4 2008
+63. American Beauty  8.4 1999
+64. Mononoke-hime  8.4 1997
+65. The Dark Knight Rises  8.4 2012
+66. Blade Runner 2049  8.4 2017
+67. Oldeuboi  8.4 2003
+68. Witness for the Prosecution  8.4 1957
+69. Aliens  8.4 1986
+70. Once Upon a Time in America  8.4 1984
+71. Das Boot  8.3 1981
+72. Dangal  8.3 2016
+73. Citizen Kane  8.3 1941
+74. Vertigo  8.3 1958
+75. North by Northwest  8.3 1959
+76. Star Wars: Episode VI - Return of the Jedi  8.3 1983
+77. Braveheart  8.3 1995
+78. Reservoir Dogs  8.3 1992
+79. M  8.3 1931
+80. Requiem for a Dream  8.3 2000
+81. Kimi no na wa.  8.3 2016
+82. Taare Zameen Par  8.3 2007
+83. Le fabuleux destin d'Amélie Poulain  8.3 2001
+84. A Clockwork Orange  8.3 1971
+85. Lawrence of Arabia  8.3 1962
+86. Amadeus  8.3 1984
+87. Double Indemnity  8.3 1944
+88. Eternal Sunshine of the Spotless Mind  8.3 2004
+89. Taxi Driver  8.3 1976
+90. To Kill a Mockingbird  8.3 1962
+91. Full Metal Jacket  8.3 1987
+92. 2001: A Space Odyssey  8.3 1968
+93. Singin' in the Rain  8.3 1952
+94. Toy Story  8.3 1995
+95. 3 Idiots  8.3 2009
+96. The Sting  8.3 1973
+97. Toy Story 3  8.3 2010
+98. Inglourious Basterds  8.3 2009
+99. Ladri di biciclette  8.3 1948
+100. The Kid  8.3 1921
+101. Snatch  8.3 2000
+102. Monty Python and the Holy Grail  8.3 1975
+103. Good Will Hunting  8.3 1997
+104. Jagten  8.3 2012
+105. Per qualche dollaro in più  8.3 1965
+106. Scarface  8.3 1983
+107. L.A. Confidential  8.3 1997
+108. The Apartment  8.2 1960
+109. Metropolis  8.2 1927
+110. Jodaeiye Nader az Simin  8.2 2011
+111. Rashômon  8.2 1950
+112. Indiana Jones and the Last Crusade  8.2 1989
+113. All About Eve  8.2 1950
+114. Yôjinbô  8.2 1961
+115. Babam ve Oglum  8.2 2005
+116. Up  8.2 2009
+117. Batman Begins  8.2 2005
+118. Some Like It Hot  8.2 1959
+119. The Treasure of the Sierra Madre  8.2 1948
+120. Unforgiven  8.2 1992
+121. Der Untergang  8.2 2004
+122. Die Hard  8.2 1988
+123. Heat  8.2 1995
+124. Raging Bull  8.2 1980
+125. The Third Man  8.2 1949
+126. Bacheha-Ye aseman  8.2 1997
+127. The Great Escape  8.2 1963
+128. Ikiru  8.2 1952
+129. Chinatown  8.2 1974
+130. El laberinto del fauno  8.2 2006
+131. Tonari no Totoro  8.2 1988
+132. Incendies  8.2 2010
+133. Ran  8.2 1985
+134. Judgment at Nuremberg  8.2 1961
+135. The Gold Rush  8.2 1925
+136. El secreto de sus ojos  8.2 2009
+137. Hauru no ugoku shiro  8.2 2004
+138. Inside Out  8.2 2015
+139. On the Waterfront  8.2 1954
+140. The Bridge on the River Kwai  8.2 1957
+141. Det sjunde inseglet  8.2 1957
+142. Room  8.2 2015
+143. Lock, Stock and Two Smoking Barrels  8.2 1998
+144. Mr. Smith Goes to Washington  8.2 1939
+145. A Beautiful Mind  8.2 2001
+146. Casino  8.2 1995
+147. Blade Runner  8.2 1982
+148. Dunkirk  8.2 2017
+149. The Elephant Man  8.1 1980
+150. V for Vendetta  8.1 2005
+151. The Wolf of Wall Street  8.1 2013
+152. Smultronstället  8.1 1957
+153. The General  8.1 1926
+154. Warrior  8.1 2011
+155. Dial M for Murder  8.1 1954
+156. Trainspotting  8.1 1996
+157. Gran Torino  8.1 2008
+158. Gone with the Wind  8.1 1939
+159. The Deer Hunter  8.1 1978
+160. The Sixth Sense  8.1 1999
+161. Sunrise: A Song of Two Humans  8.1 1927
+162. Fargo  8.1 1996
+163. No Country for Old Men  8.1 2007
+164. The Thing  8.1 1982
+165. The Big Lebowski  8.1 1998
+166. Finding Nemo  8.1 2003
+167. Andrey Rublev  8.1 1966
+168. Tôkyô monogatari  8.1 1953
+169. Eskiya  8.1 1996
+170. There Will Be Blood  8.1 2007
+171. Cool Hand Luke  8.1 1967
+172. Idi i smotri  8.1 1985
+173. Rebecca  8.1 1940
+174. Kill Bill: Vol. 1  8.1 2003
+175. Hacksaw Ridge  8.1 2016
+176. How to Train Your Dragon  8.1 2010
+177. Rang De Basanti  8.1 2006
+178. Mary and Max  8.1 2009
+179. Gone Girl  8.1 2014
+180. La passion de Jeanne d'Arc  8.1 1928
+181. Shutter Island  8.1 2010
+182. Into the Wild  8.1 2007
+183. Life of Brian  8.1 1979
+184. It Happened One Night  8.1 1934
+185. La La Land  8.1 2016
+186. Relatos salvajes  8.1 2014
+187. Logan  8.1 2017
+188. Platoon  8.1 1986
+189. Hotel Rwanda  8.1 2004
+190. Network  8.1 1976
+191. In the Name of the Father  8.1 1993
+192. Le salaire de la peur  8.1 1953
+193. Stand by Me  8.1 1986
+194. Rush  8.1 2013
+195. A Wednesday  8.1 2008
+196. Ben-Hur  8.1 1959
+197. The Grand Budapest Hotel  8.1 2014
+198. Persona  8.1 1966
+199. Les quatre cents coups  8.1 1959
+200. Jurassic Park  8.1 1993
+201. Salinui chueok  8.1 2003
+202. 12 Years a Slave  8.1 2013
+203. Mad Max: Fury Road  8.1 2015
+204. Million Dollar Baby  8.1 2004
+205. Spotlight  8.1 2015
+206. Thor: Ragnarok  8.1 2017
+207. Stalker  8.1 1979
+208. The Truman Show  8.1 1998
+209. Amores perros  8.1 2000
+210. Butch Cassidy and the Sundance Kid  8.1 1969
+211. Hachi: A Dog's Tale  8.1 2009
+212. Kaze no tani no Naushika  8.1 1984
+213. Before Sunrise  8.1 1995
+214. The Princess Bride  8.1 1987
+215. The Maltese Falcon  8.1 1941
+216. Prisoners  8.0 2013
+217. Le notti di Cabiria  8.0 1957
+218. Paper Moon  8.0 1973
+219. Harry Potter and the Deathly Hallows: Part 2  8.0 2011
+220. Catch Me If You Can  8.0 2002
+221. Rocky  8.0 1976
+222. The Grapes of Wrath  8.0 1940
+223. Les diaboliques  8.0 1955
+224. Touch of Evil  8.0 1958
+225. Monsters, Inc.  8.0 2001
+226. Gandhi  8.0 1982
+227. Donnie Darko  8.0 2001
+228. Barry Lyndon  8.0 1975
+229. The Terminator  8.0 1984
+230. Annie Hall  8.0 1977
+231. The Bourne Ultimatum  8.0 2007
+232. Groundhog Day  8.0 1993
+233. The Wizard of Oz  8.0 1939
+234. La haine  8.0 1995
+235. 8½  8.0 1963
+236. Munna Bhai M.B.B.S.  8.0 2003
+237. Jaws  8.0 1975
+238. The Best Years of Our Lives  8.0 1946
+239. Twelve Monkeys  8.0 1995
+240. Mou gaan dou  8.0 2002
+241. Faa yeung nin wa  8.0 2000
+242. Paris, Texas  8.0 1984
+243. The Help  8.0 2011
+244. Dead Poets Society  8.0 1989
+245. Beauty and the Beast  8.0 1991
+246. Dog Day Afternoon  8.0 1975
+247. Ah-ga-ssi  8.0 2016
+248. Pirates of the Caribbean: The Curse of the Black Pearl  8.0 2003
+249. PK  8.0 2014
+250. Tenkû no shiro Rapyuta  8.0 1986
