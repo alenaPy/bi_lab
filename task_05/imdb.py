@@ -34,9 +34,10 @@ try:
                 break
             else:
                 rank.append(line.strip().split('  ')[2].lstrip())
-                film.append(line.strip().rstrip(')').split('  ')[3].split(' (')[0])
-                year.append(line.strip().rstrip('/I)').split('  ')[3].
-                            split(' (')[1])
+                film.append(line.strip().rstrip(')').split('  ')[3]
+                            .split(' (')[0])
+                year.append(line.strip().rstrip('/I)').split('  ')[3]
+                            .split(' (')[1])
                 i += 1
 except FileNotFoundError:
     print('The file hasn\'t been found')
