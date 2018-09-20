@@ -1,10 +1,10 @@
 """Import."""
 import csv
+import gzip
 import io
 import json
 import os
 import requests
-import gzip
 import zipfile
 
 
