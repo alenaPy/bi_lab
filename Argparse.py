@@ -7,7 +7,8 @@ parser.add_argument('--year', help='displays Top250 movie titles with year',
                     action='store_true')
 parser.add_argument('--rate', help='displays Top250 movie titles with rate',
                     action='store_true')
-parser.add_argument('--all', help='shows title, rate, year', action='store_true')
+parser.add_argument('--all', help='shows title, rate, year',
+                    action='store_true')
 parser.add_argument('--histogram', help='displays histogram for rating or for'
                     ' years (in text format)')
 parser.add_argument('--output', help='stores all data to specified filename'

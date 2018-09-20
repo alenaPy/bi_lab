@@ -37,7 +37,8 @@ def add_to_list_in_dict(dict1, list1, element):
         dict1[list1] = []
         current_list = dict1[list1]
     else:
-        print("List has ", str(existing_list))
+        c = str(current_list)
+        print("List has ", c)
     finally:
         current_list.append(element)
         print("Added %s to %s." % (element, list1))
