@@ -48,14 +48,14 @@ if arguments.year:
     print('Top250 movies titles with year')
     i = 0
     for i in range(0, len(titles), 1):
-        print(str(i+1) + ' ' + titles[i] + ' ' + years[i])
+        print(str(i + 1) + ' ' + titles[i] + ' ' + years[i])
         i += 1
 
 if arguments.rate:
     print('Top250 movies titles with rate')
     i = 0
     for i in range(0, len(titles)):
-        print(str(i+1) + ' ' + titles[i] + ' ' + rates[i])
+        print(str(i + 1) + ' ' + titles[i] + ' ' + rates[i])
         i += 1
 
 if arguments.histogram == 'rate':
@@ -72,7 +72,7 @@ if arguments.all:
     print('Top250 movies. Title, rate, year')
     i = 0
     for i in range(0, len(titles), 1):
-        print(str(i+1) + '. ' + titles[i] + ' ' + years[i] + ' ' + rates[i])
+        print(str(i + 1) + '. ' + titles[i] + ' ' + years[i] + ' ' + rates[i])
         i += 1
 
 if arguments.output:
@@ -80,6 +80,6 @@ if arguments.output:
     with open(arguments.output, "w", encoding='UTF-8') as file1:
         i = 0
         for i in range(0, len(titles)):
-            file1.write((str(i+1) + '. ' + titles[i] + ' ' + years[i] + ' ' +
+            file1.write((str(i + 1) + '. ' + titles[i] + ' ' + years[i] + ' ' +
                          rates[i]) + '\n')
             i += 1
