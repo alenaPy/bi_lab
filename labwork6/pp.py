@@ -1,5 +1,5 @@
 """Ex1."""
-import csv
+
 import io
 import json
 import os
@@ -34,4 +34,3 @@ gz_get = requests.get(gz_url)
 with gzip.open(io.BytesIO(gz_get.content), 'r') as data:
     file = json.loads(data.read())
 print(file)
-
