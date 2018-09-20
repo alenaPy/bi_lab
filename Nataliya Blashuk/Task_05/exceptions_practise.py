@@ -6,7 +6,7 @@
 def division_by_zero(a=5, b=0):
     """Catch the DevisionError exception."""
     try:
-        a/b
+        a / b
     except ZeroDivisionError:
         print("Error! Division by zero is mistake")
 
