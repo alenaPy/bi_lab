@@ -1,15 +1,15 @@
 """Solution for Download and extract data."""
+import argparse
+import csv
+import io
+import json
+import os
 from PyPDF2 import PdfFileReader
-import tarfile
-import urllib.request
 import requests
 import ssl
-import argparse
-import io
-import os
-import json
+import tarfile
+import urllib.request
 import xml.etree.cElementTree as ET
-import csv
 import yaml
 # This method invoked for resolving issues with requests lib certificates
 ssl.enum_certificates('CA')
@@ -47,8 +47,8 @@ def gz_extract():
                     file_path)
     sample = tarfile.open('file.tar.gz', "r:gz")
     sample.extractall()
-    print('gz archive has been successfully extracted. Check it at '
-          + file_path)
+    print('gz archive has been successfully extracted. Check it at ' + 
+          file_path)
 
 
 def gz_show():
