@@ -1,17 +1,18 @@
 ﻿"""Ex1."""
 
 import csv
+import gzip
 import io
 import json
 import os
 import requests
-import gzip
 import zipfile
 
 # zip file
 exists = os.path.isfile('FL_insurance_sample.csv')
 if not exists:
-    zip_url = 'http://spatialkeydocs.s3.amazonaws.com/FL_insurance_sample.csv.zip'
+    zip_url = 'http://spatialkeydocs.s3.amazonaws.com/' \
+              'FL_insurance_sample.csv.zip'
     zip_get = requests.get(zip_url)
     data = zipfile
     data.extractall()
