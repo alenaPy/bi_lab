@@ -47,7 +47,7 @@ def gz_extract():
                     file_path)
     sample = tarfile.open('file.tar.gz', "r:gz")
     sample.extractall()
-    print('gz archive has been successfully extracted. Check it at ' + 
+    print('gz archive has been successfully extracted. Check it at ' +
           file_path)
 
 
