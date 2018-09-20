@@ -1,10 +1,10 @@
 """Ex1."""
 
+import gzip
 import io
 import json
 import os
 import requests
-import gzip
 import zipfile
 
 
