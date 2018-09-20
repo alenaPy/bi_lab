@@ -3,7 +3,8 @@
 import re
 
 # task 1.1
-string = 'svetlana_nesenchuk@epam.com bedjhfvuyew kiannet@gmail.com frjhgfru abc@gmail.com'
+string = 'svetlana_nesenchuk@epam.com bedjhfvuyew ' \
+         'kiannet@gmail.com frjhgfru abc@gmail.com'
 print(re.findall(r'\w+@\w+\.\w+', string))
 
 
