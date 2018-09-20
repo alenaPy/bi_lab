@@ -4,7 +4,7 @@
 def except_dev_by_zero(n):
     """Detect zero division."""
     try:
-        return n/0
+        return n / 0
     except ZeroDivisionError:
         print("Couldn't divide by zero!")
 
