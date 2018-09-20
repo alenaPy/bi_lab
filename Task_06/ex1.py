@@ -14,7 +14,7 @@ if not exists:
     zip_url = 'http://spatialkeydocs.s3.amazonaws.com/' \
               'FL_insurance_sample.csv.zip'
     zip_get = requests.get(zip_url)
-    data = zipfile
+    data = zipfile.ZipFile(io.BytesIO(zip_get.content))
     data.extractall()
     data.close()
 
