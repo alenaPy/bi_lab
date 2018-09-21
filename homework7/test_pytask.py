@@ -1,5 +1,6 @@
 """Tests for py_tasks."""
 from unittest import TestCase
+
 import pytask
 
 
