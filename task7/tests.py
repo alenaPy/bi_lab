@@ -20,12 +20,12 @@ class Tests(unittest.TestCase):
 
     def test_(self):
         """Check parameters of class Coffee."""
-        self.assertFalse(task2.Coffee("1", 1, 1, 1, 1).fill_the_machine(10, -1, 10))
-        self.assertTrue(task2.Coffee("1", 1, 1, 1, 1).fill_the_machine(10, 10, 10))
+        self.assertFalse(task2.Coffee("1", 1, 1, 1, 1)
+                         .fill_the_machine(10, -1, 10))
+        self.assertTrue(task2.Coffee("1", 1, 1, 1, 1)
+                        .fill_the_machine(10, 10, 10))
 
     def test_none(self):
         # This functions will never returned anything
         self.assertIsNone(task2.Coffee("1", 1, 1, 1, 1).display_items())
         self.assertIsNone(task2.Coffee("1", 1, 1, 1, 1).display_amount())
-
-
