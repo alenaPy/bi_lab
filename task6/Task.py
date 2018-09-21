@@ -1,12 +1,14 @@
 """Task6."""
 
 from csv import reader
-from requests import get
-from io import BytesIO
-from zipfile import ZipFile
-from os import path
 import json
 import gzip
+from io import BytesIO
+from os import path
+from requests import get
+from zipfile import ZipFile
+
+
 
 
 exists = path.isfile("countries of the world.csv.csv")
