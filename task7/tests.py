@@ -1,14 +1,14 @@
 """Task7."""
 
-import unittest
 import task2
+import unittest
 
 
 class Tests(unittest.TestCase):
 
     def test_instance(self):
         """Check instance of class Coffee."""
-        self.assertIsInstance(task2.Coffee("1", 1, 1, 1, 1),task2.Coffee)
+        self.assertIsInstance(task2.Coffee("1", 1, 1, 1, 1), task2.Coffee)
         self.assertNotIsInstance("123", task2.Coffee)
 
     def test_equals(self):
