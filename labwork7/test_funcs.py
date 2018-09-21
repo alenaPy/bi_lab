@@ -10,7 +10,8 @@ class TestPyTasks(TestCase):
 
     def test_is_palindrome(self):
         """Test for is_palindrome."""
-        self.assertFalse(functions.isPalindrome('An apple a day keeps the doctor away'))
+        self.assertFalse(functions.isPalindrome('An apple a day keeps the '
+                                                'doctor away'))
         self.assertTrue(functions.isPalindrome('QwErTytrewq'))
 
     def test_fizzbuzz(self):
