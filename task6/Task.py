@@ -27,4 +27,4 @@ gz_get = get(gz_url)
 with gzip.open(BytesIO(gz_get.content), 'r') as data:
     file = json.loads(data.read())
 
-print("This is content of JSON file - {0}".format(file))
+print("This is content of JSON file: {0}".format(file))
