@@ -2,8 +2,8 @@
 
 from csv import reader
 import gzip
-import json
 from io import BytesIO
+import json
 from os import path
 from requests import get
 from zipfile import ZipFile
