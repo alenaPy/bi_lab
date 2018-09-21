@@ -21,11 +21,11 @@ class TestPyTasks(TestCase):
     def test_count_characters(self):
         """Test for count_characters."""
         self.assertEqual(
-            functions.count_characters('aaaaaaasfdffdfeo;om  mol;95343  '
-                                      'grfhfgfea', 'a'), 8)
+            functions.count_characters('aaaaaaasfdffdfeo;om  mol;95343grfh'
+                                       'fgfea', 'a'), 8)
         self.assertEqual(
-            functions.count_characters('hjtyjyjk2312q4  fh6..,,m,bnvaxxw'
-                                      'qdwf', '2'), 2)
+            functions.count_characters('hjtyjyjk2312q4  fh6..,,m,bnvaxxwqdwf',
+                                       '2'), 2)
 
     def test_generate_numbers(self):
         """Test for number_square."""
