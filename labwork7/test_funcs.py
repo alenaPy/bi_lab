@@ -10,22 +10,20 @@ class TestPyTasks(TestCase):
 
     def test_is_palindrome(self):
         """Test for is_palindrome."""
-        self.assertFalse(functions.isPalindrome('sdsdqqdwdsfx'))
-        self.assertTrue(functions.isPalindrome('Never odd or even'))
+        self.assertFalse(functions.isPalindrome('An apple a day keeps the doctor away'))
+        self.assertTrue(functions.isPalindrome('QwErTytrewq'))
 
     def test_fizzbuzz(self):
         """Test for fizzbuzz."""
-        self.assertEqual(functions.fizz_buzz(100), 'Buzz')
+        self.assertEqual(functions.fizz_buzz(25), 'Buzz')
         self.assertEqual(functions.fizz_buzz(1), 1)
 
     def test_count_characters(self):
         """Test for count_characters."""
         self.assertEqual(
-            functions.count_characters('aaaaaaasfdffdfeo;om  mol;95343grfh'
-                                       'fgfea', 'a'), 8)
+            functions.count_characters('sbdvbadlfbvdhfs', 's'), 2)
         self.assertEqual(
-            functions.count_characters('hjtyjyjk2312q4  fh6..,,m,bnvaxxwqdwf',
-                                       '2'), 2)
+            functions.count_characters('dfjkvndfjvnfvnfj', 'j'), 3)
 
     def test_generate_numbers(self):
         """Test for number_square."""
