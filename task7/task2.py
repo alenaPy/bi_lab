@@ -53,24 +53,23 @@ class Coffee(object):
                     self.coffee_amount -= 5
                     print("Here is your your {0} with sugar."
                           .format(sub('[\'\][]', '', choice[0])))
+                    return sub('[\'\][]', '', choice[0])
                 else:
                     self.water_amount -= 10
                     self.coffee_amount -= 5
                     print("Here is your your {0}."
                           .format(sub('[\'\][]', '', choice[0])))
+                    return sub('[\'\][]', '', choice[0])
             else:
                 print("Sorry, machine is empty.")
         else:
             print("Sorry, we don't have this coffee.")
 
     def fill_the_machine(self, sugar, water, coffee):
-        self.sugar_amount += sugar
-        self.coffee_amount += coffee
-        self.water_amount += water
-
-
-machine1 = Coffee('BaristaMax', 200, 200, 200, 4)
-machine1.get_coffee(True)
-machine1.display_amount()
-machine1.fill_the_machine(100, 100, 100)
-machine1.display_amount()
+        if(sugar > 0 and water > 0 and coffee > 0):
+            self.sugar_amount += sugar
+            self.coffee_amount += coffee
+            self.water_amount += water
+            return True
+        else:
+            return False
