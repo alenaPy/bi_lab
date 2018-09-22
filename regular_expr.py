@@ -8,10 +8,8 @@ print(result)
 
 # Write a program to find all 3, 4, 5 characters long words in a string.
 s2 = 'London is the capital and most populous city of England and the UK!'
-result = re.findall(r'\w+', s2)
-for i in result:
-    if len(i) in (3, 4, 5):
-        print(i)
+result = re.findall(r'\b\w{3,5}\b', s2)
+print(result)
 
 # Write a program to separate and print the numbers of a given string.
 s3 = 'London\'s average July high is 24 °C (74 °F).'
