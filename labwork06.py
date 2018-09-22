@@ -1,5 +1,6 @@
 """Labwork06."""
 import argparse
+from collections import OrderedDict
 import csv
 import gzip
 import io
@@ -8,7 +9,7 @@ import os
 import requests
 import yaml
 import zipfile
-from collections import OrderedDict
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--format', default=False)
