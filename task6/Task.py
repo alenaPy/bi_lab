@@ -3,8 +3,8 @@
 import argparse
 import csv
 import io
-import json
 import gzip
+import json
 import os
 import requests
 import urllib.request
