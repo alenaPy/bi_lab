@@ -4,11 +4,11 @@ import argparse
 
 parser = argparse.ArgumentParser(add_help=True)
 
-parser.add_argument('--year', default=False,
+parser.add_argument('--year', default=False, action='store_true',
                     help='displays Top250 movies titles with year')
-parser.add_argument('--rate', default=False,
+parser.add_argument('--rate', default=False, action='store_true',
                     help='displays Top250 movies titles with rate')
-parser.add_argument('--all', default=False,
+parser.add_argument('--all', default=False, action='store_true',
                     help='shows title, rate, year')
 parser.add_argument('--histogram', default=False,
                     help='displays histogram for rating or '
