@@ -2,10 +2,10 @@
 
 import argparse
 import csv
-import json
 import io
-import os
+import json
 import gzip
+import os
 import requests
 import urllib.request
 import xml.etree.cElementTree as ET
