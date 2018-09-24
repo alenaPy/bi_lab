@@ -13,7 +13,8 @@ import yaml
 def dload(url):
     """Download a file via a URL."""
     try:
-        req = requests.get(url)
+        req = requests\
+            .get(url)
         file_name = url.rsplit('/', 1)[1]
     except Exception:
         print('URL or connection error has occurred')
@@ -73,7 +74,9 @@ parser.add_argument('--histogram', default=False,
                          'for years (in text format)')
 parser.add_argument('--output', default=False,
                     help='stores all data to specified filename file')
-parser.add_argument('--download', help='download a file using given VALID url')
+parser.add_argument('--download', help='download a file using given VALID url',
+                    nargs='?', const='https://wiki.mozilla.org/images/'
+                                     'f/ff/Example.json.gz')
 parser.add_argument('--format', help='csv | json | xml | yaml')
 
 args = parser.parse_args()
