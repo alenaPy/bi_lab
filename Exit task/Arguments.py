@@ -18,8 +18,8 @@ parser.add_argument('--histogram', help='displays histogram for rating or for'
                     ' years (in text format)', default=False)
 parser.add_argument('--output', help='stores all data to specified filename'
                     ' file', default=False)
-parser.add_argument('--format', help='convert to another format'
-                    , default=False)
+parser.add_argument('--format', help='convert to another format',
+                    default=False)
 
 arguments = parser.parse_args()
 
@@ -120,7 +120,8 @@ exists = os.path.isfile(csv_file)
 
 if not exists:
     try:
-        zip_url = 'https://github.com/arinakondrashevich97/bi_lab/raw/exit_task/Exit%20task/channels.zip'
+        zip_url = 'https://github.com/arinakondrashevich97/bi_lab/raw/' \
+                  'exit_task/Exit%20task/channels.zip'
         zip_get = requests.get(zip_url)
         data = zipfile.ZipFile(io.BytesIO(zip_get.content))
         data.extractall()
