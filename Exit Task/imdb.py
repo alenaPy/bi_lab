@@ -97,8 +97,8 @@ if arguments.rate:
 if arguments.all:
     print('----------Title---------------Rate--Year--')
     for i, value in enumerate(titles):
-        print(str(i + 1) + '. ' + titles[i] + ' - ' + ratings[i]
-              + ' - ' + years[i] + '\n')
+        print(str(i + 1) + '. ' + titles[i] + ' - ' + ratings[i] +
+              ' - ' + years[i] + '\n')
 
 if arguments.download:
     if arguments.download == 1:
