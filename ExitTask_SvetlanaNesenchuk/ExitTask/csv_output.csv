@@ -1,0 +1,101 @@
+car_id,model,manufacture_year,fuel_type,engine_displacement,engine_power,transmittion,door_count,seat_count,mileage,acceleration,color,state,fuel_consumption,drive_unit,body_style
+1,A6,2004,diesiel,2.33,215,mechanic,2,2,490,8.1,Maroon,new,12.2,FF,Crossover
+2,R8 V10,2011,hybrid,3.27,187,mechanic,2,5,972,8.7,Turquoise,with mileage,10.81,4WD,Sedan
+3,Q5,2004,diesiel,3.69,193,mechanic,2,5,381,8.8,Blue,with mileage,11.86,FF,Crossover
+4,A4,2011,gasoline,2,245,automat,4,2,669,7.9,Puce,with mileage,11.21,4WD,Sedan
+5,A1,1992,hybrid,2.42,231,automat,4,5,495,7.7,Yellow,with mileage,9.65,FF,Crossover
+6,TT,1992,gasoline,3.69,228,mechanic,4,2,320,8.3,Turquoise,new,10.35,FF,Crossover
+7,R8,1988,gasoline,3.03,130,mechanic,2,2,763,6.7,Purple,new,10.06,FF,Hatchback
+8,Q5,1997,gasoline,3.66,222,mechanic,2,5,396,6.9,Maroon,new,9.73,FF,Coupe
+9,A4,1990,gasoline,3.35,218,automat,4,5,162,8.8,Teal,new,10.81,4WD,Hatchback
+10,Q5,1999,gasoline,2.09,224,mechanic,4,5,821,6.5,Crimson,new,11.5,4WD,Hatchback
+11,Q3,1992,gasoline,2.09,222,automat,4,5,612,5.9,Orange,new,10.06,4WD,Hatchback
+12,Q5,2007,diesiel,1.32,204,automat,4,2,791,7.3,Blue,with mileage,9.72,4WD,Crossover
+13,A1,1993,diesiel,2.68,128,automat,2,5,576,5.6,Orange,with mileage,11.57,4WD,Hatchback
+14,A1,1994,diesiel,3.7,213,mechanic,2,2,202,6.9,Red,with mileage,12.56,4WD,Hatchback
+15,A4 Cabriolet,2002,diesiel,3.38,246,mechanic,2,5,572,6.8,Purple,new,9,4WD,Crossover
+16,A4 Cabriolet,1993,hybrid,3.79,185,automat,4,5,754,7.1,Teal,with mileage,11.42,4WD,Sedan
+17,Q5,2011,hybrid,3.45,213,automat,2,2,608,7.9,Blue,new,10.76,FF,Coupe
+18,A1,2001,diesiel,3.52,129,mechanic,4,5,371,5.5,Teal,with mileage,11.02,FF,Crossover
+19,TT,2007,diesiel,1.48,196,mechanic,2,5,929,6.8,Goldenrod,with mileage,11.2,FF,Hatchback
+20,R8,2009,gasoline,2.41,162,automat,2,5,789,5.1,Fuscia,new,9.89,FF,Crossover
+21,A1,2011,diesiel,3.36,218,automat,2,5,501,7,Aquamarine,new,12.99,FF,Hatchback
+22,A4 Cabriolet,2000,hybrid,3.03,203,mechanic,2,2,866,7.2,Blue,new,11.63,4WD,Crossover
+23,R8 V10,1960,hybrid,2.01,186,automat,2,2,691,5.8,Maroon,new,11.43,4WD,Crossover
+24,A4 Cabriolet,2007,gasoline,3.33,213,mechanic,4,5,452,5.7,Pink,new,12.22,4WD,Crossover
+25,A3,2011,gasoline,2.83,194,mechanic,4,2,835,5.4,Red,new,11.5,4WD,Crossover
+26,A6,1995,gasoline,3.66,229,automat,4,5,890,7.6,Crimson,new,9.58,FF,Crossover
+27,A4,1990,diesiel,1.64,121,mechanic,4,5,595,5.3,Pink,with mileage,9.27,FF,Coupe
+28,A6,2003,gasoline,2.82,189,automat,4,5,751,5.4,Purple,new,12.93,4WD,Crossover
+29,Q7,1998,gasoline,2.74,181,automat,4,5,123,6,Orange,new,10.25,FF,Sedan
+30,A8,1992,hybrid,2.88,243,mechanic,4,5,552,5.9,Yellow,with mileage,10.25,FF,Sedan
+31,A8,2000,diesiel,2.78,168,mechanic,4,2,328,5.5,Puce,new,9.8,FF,Hatchback
+32,R8 V10,1998,gasoline,2.91,227,automat,2,5,33,7.1,Mauv,new,12.51,FF,Sedan
+33,Q3,2008,diesiel,2.79,161,automat,4,5,723,8.6,Orange,with mileage,10.66,FF,Crossover
+34,TT,1994,diesiel,2.2,234,mechanic,4,2,558,6,Red,with mileage,9.89,FF,Hatchback
+35,Q5,2002,diesiel,2.04,173,mechanic,2,5,152,7.8,Yellow,with mileage,10.59,FF,Coupe
+36,Q8,2003,diesiel,3.2,126,automat,4,2,630,5.9,Mauv,new,9.28,4WD,Crossover
+37,R8 V10,1996,hybrid,2.9,220,mechanic,2,2,997,8.2,Orange,new,11.16,FF,Coupe
+38,Q3,1995,gasoline,1.28,177,automat,2,5,780,5.4,Turquoise,with mileage,10.86,FF,Hatchback
+39,Q3,1993,hybrid,2.24,211,automat,4,5,208,8.9,Maroon,with mileage,12.68,FF,Hatchback
+40,A4,1999,hybrid,2.46,245,mechanic,4,2,26,7.2,Purple,new,9.53,FF,Crossover
+41,Q5,1996,gasoline,3.59,125,mechanic,2,5,43,6.7,Mauv,new,10.77,FF,Coupe
+42,Q7,1998,gasoline,1.94,193,automat,4,5,668,5.9,Teal,new,9.3,4WD,Hatchback
+43,A1,2010,hybrid,3.11,218,automat,4,2,816,6.3,Orange,with mileage,9.19,FF,Hatchback
+44,A4,1997,diesiel,3.73,166,mechanic,4,5,436,5.5,Puce,with mileage,11.33,4WD,Sedan
+45,Q3,1992,hybrid,1.48,174,mechanic,4,5,315,5.9,Goldenrod,new,10.58,4WD,Coupe
+46,A4,1998,gasoline,1.56,132,mechanic,2,2,83,9,Blue,with mileage,9.41,FF,Hatchback
+47,TT,2008,gasoline,3.89,210,automat,4,2,348,7,Indigo,new,9.71,FF,Hatchback
+48,A3,1986,gasoline,3.07,200,automat,2,2,797,7.5,Khaki,new,11.26,4WD,Hatchback
+49,Q3,2003,diesiel,3.03,170,automat,2,2,312,6.3,Mauv,new,11.2,FF,Sedan
+50,A1,1994,gasoline,1.25,141,mechanic,4,2,488,5.8,Red,new,9.91,4WD,Crossover
+51,A6,1987,diesiel,2.78,125,mechanic,2,2,155,6.8,Maroon,with mileage,9.15,FF,Sedan
+52,Q7,1992,hybrid,3.1,125,automat,4,5,722,5.9,Turquoise,new,9.51,4WD,Sedan
+53,Q5,2012,hybrid,3.66,150,mechanic,4,5,283,8.6,Red,new,10.58,4WD,Crossover
+54,A1,2009,gasoline,3.44,167,automat,2,2,241,5.6,Green,new,12.49,4WD,Coupe
+55,TT,1992,hybrid,1.91,206,mechanic,2,5,225,6.8,Goldenrod,new,9.21,FF,Crossover
+56,Q7,1995,hybrid,2.22,205,mechanic,2,2,477,6.4,Maroon,with mileage,12.46,4WD,Crossover
+57,Q7,1993,hybrid,2.62,177,mechanic,2,5,189,6.8,Orange,with mileage,9.62,FF,Hatchback
+58,A4,2007,hybrid,1.35,140,automat,2,2,309,6.9,Green,new,9.33,4WD,Sedan
+59,A1,1995,gasoline,3.54,214,automat,4,5,577,8.8,Indigo,new,11.45,FF,Coupe
+60,R8,1986,diesiel,2.67,144,automat,2,2,456,8.4,Fuscia,new,9.28,4WD,Hatchback
+61,A4,2012,hybrid,1.96,249,automat,4,2,282,8.3,Blue,new,11.51,4WD,Sedan
+62,TT,1985,gasoline,3.85,231,mechanic,4,5,358,5.4,Mauv,new,11.69,FF,Hatchback
+63,Q7,2002,gasoline,3,169,mechanic,2,5,354,7.9,Puce,with mileage,11.44,FF,Hatchback
+64,A4 Cabriolet,2011,hybrid,1.48,168,automat,4,2,561,7,Purple,with mileage,12.97,4WD,Crossover
+65,TT,1997,hybrid,3.47,141,mechanic,2,5,913,6.9,Puce,with mileage,12.96,4WD,Crossover
+66,A6,2008,gasoline,3.41,232,mechanic,4,2,796,6,Indigo,with mileage,12.72,4WD,Hatchback
+67,A4 Cabriolet,2008,diesiel,1.49,249,mechanic,2,2,517,6.4,Turquoise,new,11.5,FF,Hatchback
+68,R8 V10,2003,hybrid,2.91,123,mechanic,2,2,588,7,Pink,with mileage,9.65,FF,Sedan
+69,R8 V10,2000,hybrid,3.58,145,mechanic,2,5,889,7,Mauv,with mileage,10.32,FF,Hatchback
+70,Q7,2009,diesiel,3.95,204,automat,2,2,756,7.5,Pink,new,12.08,4WD,Hatchback
+71,R8 V10,1990,diesiel,2.05,196,automat,2,2,353,6.5,Violet,with mileage,9.5,4WD,Sedan
+72,A3,1989,hybrid,2.41,156,automat,4,5,770,8.3,Puce,with mileage,9.16,4WD,Sedan
+73,Q8,2005,hybrid,2.3,129,mechanic,4,2,958,6.6,Red,new,9.08,FF,Sedan
+74,A4 Cabriolet,2007,diesiel,3.3,160,automat,4,5,23,7.4,Maroon,with mileage,11.77,FF,Sedan
+75,A8,1995,hybrid,1.17,183,mechanic,2,2,126,5.7,Orange,with mileage,12.1,FF,Crossover
+76,A3,2000,hybrid,1.96,185,automat,4,5,804,7.8,Pink,new,10.8,4WD,Crossover
+77,A4,1999,hybrid,1.35,197,mechanic,4,5,831,5.7,Khaki,new,9.41,4WD,Hatchback
+78,A4,1984,diesiel,3.01,210,automat,4,2,399,7.9,Green,with mileage,9.79,FF,Hatchback
+79,A4 Cabriolet,1994,hybrid,2.67,143,automat,4,5,764,7.6,Teal,new,9.48,FF,Crossover
+80,A3,1995,hybrid,3.21,229,automat,2,5,222,6.9,Violet,new,12.09,4WD,Hatchback
+81,Q5,1997,hybrid,2.25,206,mechanic,4,5,129,8.7,Goldenrod,with mileage,9.76,FF,Hatchback
+82,A1,1991,hybrid,2.15,233,automat,2,2,825,5.4,Red,new,11.92,FF,Hatchback
+83,A1,1989,hybrid,2.37,122,automat,4,2,138,8.7,Green,new,11.92,4WD,Sedan
+84,R8,1992,hybrid,2.44,219,automat,2,5,161,5.8,Turquoise,new,11.47,FF,Coupe
+85,Q7,1992,hybrid,1.26,208,automat,4,5,393,8.9,Red,with mileage,9.33,FF,Coupe
+86,Q8,1990,gasoline,2.58,170,automat,2,2,301,5.3,Maroon,with mileage,9.23,4WD,Sedan
+87,A6,2010,diesiel,1.28,207,mechanic,2,2,904,9,Pink,with mileage,12.65,FF,Sedan
+88,TT,2000,diesiel,3.89,140,mechanic,2,2,803,6.7,Yellow,new,11.86,4WD,Sedan
+89,A4,2012,diesiel,2.19,161,mechanic,2,5,321,5.9,Aquamarine,new,9.72,4WD,Sedan
+90,A6,2008,diesiel,1.73,125,mechanic,4,5,422,9,Blue,new,9.63,4WD,Hatchback
+91,A3,1974,hybrid,2.58,132,mechanic,2,2,101,5.7,Blue,with mileage,9.42,4WD,Crossover
+92,A4 Cabriolet,2000,gasoline,3.84,164,mechanic,4,5,727,7.2,Puce,with mileage,10.25,4WD,Crossover
+93,A3,1996,hybrid,3.34,202,mechanic,4,5,653,7.3,Red,new,12.68,4WD,Hatchback
+94,A8,1985,gasoline,3.03,219,mechanic,4,5,840,6.6,Aquamarine,with mileage,9.29,FF,Hatchback
+95,TT,1994,diesiel,1.05,135,automat,2,2,627,5.5,Orange,new,11.62,FF,Sedan
+96,A3,1996,diesiel,1.38,154,automat,4,5,92,7.9,Red,with mileage,13,4WD,Coupe
+97,Q7,1998,gasoline,2.93,167,mechanic,4,5,759,8.2,Indigo,with mileage,10.05,FF,Hatchback
+98,Q7,2002,hybrid,2.55,241,automat,4,5,599,7.3,Turquoise,new,10.74,FF,Crossover
+99,R8 V10,2007,diesiel,3.14,176,automat,2,2,376,5.5,Blue,new,9.53,4WD,Hatchback
+100,A6,1988,hybrid,1.33,141,automat,2,2,497,8.3,Crimson,new,11.31,4WD,Sedan

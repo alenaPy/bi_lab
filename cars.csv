@@ -1,0 +1,101 @@
+CAR_ID,MODEL,MANUFACTURE_YEAR,FUEL_TYPE,ENGINE_DISPLACEMENT,ENGINE_POWER
+1,A6,2004,diesiel,2.33,215
+2,R8 V10,2011,hybrid,3.27,187
+3,Q5,2004,diesiel,3.69,193
+4,A4,2011,gasoline,2,245
+5,A1,1992,hybrid,2.42,231
+6,TT,1992,gasoline,3.69,228
+7,R8,1988,gasoline,3.03,130
+8,Q5,1997,gasoline,3.66,222
+9,A4,1990,gasoline,3.35,218
+10,Q5,1999,gasoline,2.09,224
+11,Q3,1992,gasoline,2.09,222
+12,Q5,2007,diesiel,1.32,204
+13,A1,1993,diesiel,2.68,128
+14,A1,1994,diesiel,3.7,213
+15,A4 Cabriolet,2002,diesiel,3.38,246
+16,A4 Cabriolet,1993,hybrid,3.79,185
+17,Q5,2011,hybrid,3.45,213
+18,A1,2001,diesiel,3.52,129
+19,TT,2007,diesiel,1.48,196
+20,R8,2009,gasoline,2.41,162
+21,A1,2011,diesiel,3.36,218
+22,A4 Cabriolet,2000,hybrid,3.03,203
+23,R8 V10,1960,hybrid,2.01,186
+24,A4 Cabriolet,2007,gasoline,3.33,213
+25,A3,2011,gasoline,2.83,194
+26,A6,1995,gasoline,3.66,229
+27,A4,1990,diesiel,1.64,121
+28,A6,2003,gasoline,2.82,189
+29,Q7,1998,gasoline,2.74,181
+30,A8,1992,hybrid,2.88,243
+31,A8,2000,diesiel,2.78,168
+32,R8 V10,1998,gasoline,2.91,227
+33,Q3,2008,diesiel,2.79,161
+34,TT,1994,diesiel,2.2,234
+35,Q5,2002,diesiel,2.04,173
+36,Q8,2003,diesiel,3.2,126
+37,R8 V10,1996,hybrid,2.9,220
+38,Q3,1995,gasoline,1.28,177
+39,Q3,1993,hybrid,2.24,211
+40,A4,1999,hybrid,2.46,245
+41,Q5,1996,gasoline,3.59,125
+42,Q7,1998,gasoline,1.94,193
+43,A1,2010,hybrid,3.11,218
+44,A4,1997,diesiel,3.73,166
+45,Q3,1992,hybrid,1.48,174
+46,A4,1998,gasoline,1.56,132
+47,TT,2008,gasoline,3.89,210
+48,A3,1986,gasoline,3.07,200
+49,Q3,2003,diesiel,3.03,170
+50,A1,1994,gasoline,1.25,141
+51,A6,1987,diesiel,2.78,125
+52,Q7,1992,hybrid,3.1,125
+53,Q5,2012,hybrid,3.66,150
+54,A1,2009,gasoline,3.44,167
+55,TT,1992,hybrid,1.91,206
+56,Q7,1995,hybrid,2.22,205
+57,Q7,1993,hybrid,2.62,177
+58,A4,2007,hybrid,1.35,140
+59,A1,1995,gasoline,3.54,214
+60,R8,1986,diesiel,2.67,144
+61,A4,2012,hybrid,1.96,249
+62,TT,1985,gasoline,3.85,231
+63,Q7,2002,gasoline,3,169
+64,A4 Cabriolet,2011,hybrid,1.48,168
+65,TT,1997,hybrid,3.47,141
+66,A6,2008,gasoline,3.41,232
+67,A4 Cabriolet,2008,diesiel,1.49,249
+68,R8 V10,2003,hybrid,2.91,123
+69,R8 V10,2000,hybrid,3.58,145
+70,Q7,2009,diesiel,3.95,204
+71,R8 V10,1990,diesiel,2.05,196
+72,A3,1989,hybrid,2.41,156
+73,Q8,2005,hybrid,2.3,129
+74,A4 Cabriolet,2007,diesiel,3.3,160
+75,A8,1995,hybrid,1.17,183
+76,A3,2000,hybrid,1.96,185
+77,A4,1999,hybrid,1.35,197
+78,A4,1984,diesiel,3.01,210
+79,A4 Cabriolet,1994,hybrid,2.67,143
+80,A3,1995,hybrid,3.21,229
+81,Q5,1997,hybrid,2.25,206
+82,A1,1991,hybrid,2.15,233
+83,A1,1989,hybrid,2.37,122
+84,R8,1992,hybrid,2.44,219
+85,Q7,1992,hybrid,1.26,208
+86,Q8,1990,gasoline,2.58,170
+87,A6,2010,diesiel,1.28,207
+88,TT,2000,diesiel,3.89,140
+89,A4,2012,diesiel,2.19,161
+90,A6,2008,diesiel,1.73,125
+91,A3,1974,hybrid,2.58,132
+92,A4 Cabriolet,2000,gasoline,3.84,164
+93,A3,1996,hybrid,3.34,202
+94,A8,1985,gasoline,3.03,219
+95,TT,1994,diesiel,1.05,135
+96,A3,1996,diesiel,1.38,154
+97,Q7,1998,gasoline,2.93,167
+98,Q7,2002,hybrid,2.55,241
+99,R8 V10,2007,diesiel,3.14,176
+100,A6,1988,hybrid,1.33,141
