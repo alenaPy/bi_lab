@@ -1,7 +1,6 @@
 import argparse
 from collections import OrderedDict
 import csv
-import gzip
 import io
 import json
 import os
@@ -51,8 +50,9 @@ try:
                 years.append(line[line.find('(') + 1:line.find(')')])
 
         if (arguments.year is False and arguments.rate is False and
-            arguments.histogram is False and arguments.all is False and
-            arguments.output is False and arguments.format is False):
+            arguments.histogram is False and arguments.all is False
+                and arguments.output is False and arguments.format is False):
+            # change the option
             arguments.titles = True
 
 except FileNotFoundError:
@@ -112,6 +112,7 @@ if arguments.format == 'yaml':
     in_file = open(csv_file, "r")
     out_file = open('yaml_file.yaml', "w")
     items = []
+
     def convert_to_yaml(line):
         """Convert to yaml."""
         item = {
