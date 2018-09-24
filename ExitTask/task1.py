@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import os
+import sys
 import urllib.request
 import xml.etree.cElementTree as ET
 import yaml
@@ -70,13 +71,7 @@ def read_zip():
         print('File not found!')
 
 
-if arguments.year is False and\
-        arguments.rate is False and\
-        arguments.histogram is False and\
-        arguments.all is False and\
-        arguments.output is False and\
-        arguments.download is False and\
-        arguments.format is False:
+if sys.argv:
     read_zip()
     i = 0
     for movie in movies:
