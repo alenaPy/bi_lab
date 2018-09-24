@@ -32,14 +32,14 @@ except FileNotFoundError:
 
 prsr = argparse.ArgumentParser()
 prsr.add_argument("--year", help="Shows top 250 movies (title and year)",
-                  default=False)
+                  action="store_true")
 prsr.add_argument("--rate", help="Shows top 250 movies (title and rate)",
-                  default=False)
+                  action="store_true")
 prsr.add_argument("--all", help="Shows movie title, rate and year",
-                  default=False)
+                  action="store_true")
 prsr.add_argument("--histogram", help="Displays histogram for rating"
                                       " or for years (in text format)",
-                  default=False)
+                  action="store_true")
 prsr.add_argument("--output", help="Stores all data"
                                    " to specified filename file",
                   default=False)
