@@ -9,12 +9,12 @@ print(re.findall(r'\w+@\w+\.\w+', text))
 text = 'wreyru erfh elfjrlfje ldfl nfn fn'
 all_words = re.findall(r'\w+', text)
 for word in all_words:
-    if len(word) in (3, 4, 5):
+    if len(word) in {3,5}:
         print(word)
 
 
 # task 1.3
-text = 'wreyru erfh elfjrlfje ldfl nfn fn6 7 86 340'
+text = 'wreyru erfh elfjrlfje ldfl nfn fn6 7 086 340'
 print(re.findall(r'\d+', text))
 
 # task 1.4

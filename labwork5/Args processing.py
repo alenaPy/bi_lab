@@ -1,16 +1,21 @@
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--year', help='Top250 movies titles with year',
+parser.add_argument('--year', action="store_true",
+                    help='Top250 movies titles with year',
                     default=False)
-parser.add_argument('--rate', help='Top250 movies titles with rate',
+parser.add_argument('--rate', action="store_true",
+                    help='Top250 movies titles with rate',
                     default=False)
-parser.add_argument('--all', help='Prints title, rate, year', default=False)
+parser.add_argument('--all', action="store_true",
+                    help='Prints title, rate, year',
+                    default=False)
 parser.add_argument('--histogram', help='Prints histogram for rating or for'
                                         ' years (in text format)',
                     default=False)
-parser.add_argument('--output', help='stores all data to specified filename'
-                                     ' file', default=False)
+parser.add_argument('--output', help='stores all data to specified '
+                                     'filename file',
+                    default=False)
 arguments = parser.parse_args()
 
 titles = []
