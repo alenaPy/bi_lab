@@ -128,7 +128,7 @@ if not exs_file:
 if args.format == "csv":
     with open(exs_file) as file:
         csv_rd = csv.reader(file)
-        with open("outfile_csv.csv", "w",  newline=" ") as write_file:
+        with open("outfile_csv.csv", "w", newline=" ") as write_file:
             writer = csv.writer(write_file)
             for row in csv_rd:
                 writer.writerow(row)
