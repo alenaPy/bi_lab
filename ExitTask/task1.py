@@ -57,9 +57,12 @@ def read_zip():
                     break
             for line in imdb:
                 if cnt < 250:
-                    title = line.strip().split('  ')[3].split('(')[0].strip()
-                    year = line[line.find('(') + 1:line.find(')')].rstrip('/I)')
-                    rate = line.strip().split('  ')[2].strip()
+                    title = line.strip().split('  ')[3].split('(')[0]\
+                        .strip()
+                    year = line[line.find('(') + 1:line.find(')')]\
+                        .rstrip('/I)')
+                    rate = line.strip().split('  ')[2]\
+                        .strip()
                     movies.append([title, year, rate])
                 cnt += 1
 
