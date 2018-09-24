@@ -14,7 +14,7 @@ import zipfile
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--format', default=False)
-parser.add_argument('--download', action="store_true",default=False)
+parser.add_argument('--download', action="store_true", default=False)
 arguments = parser.parse_args()
 
 # zip file
@@ -32,7 +32,6 @@ if arguments.download:
         for row in filee:
             list.append(row)
             print(row + '\n')
-
 
 
 # data serialization
