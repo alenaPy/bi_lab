@@ -9,13 +9,16 @@ import xml.etree.cElementTree as ET
 import yaml
 import zipfile
 
-movies, rates, years, r,  = [], [], [], []
+movies, rates, years, r, = [], [], [], []
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("--year", help="displays Top250 movies titles with year", action="store_true")
-parser.add_argument("--rate", help="displays Top250 movies titles with rate", action="store_true")
-parser.add_argument("--all", help="shows title, rate, year", action="store_true")
+parser.add_argument("--year", help="displays Top250 movies titles with year",
+                    action="store_true")
+parser.add_argument("--rate", help="displays Top250 movies titles with rate",
+                    action="store_true")
+parser.add_argument("--all", help="shows title, rate, year",
+                    action="store_true")
 parser.add_argument("--histogram",
                     help="displays histogram for /"
                          " rating or for years (in text format)")
@@ -35,7 +38,8 @@ exists = os.path.isfile('ratings.zip')
 def get_zip():
     """Download zip archive."""
     urllib.request.urlretrieve(
-        'https://github.com/ZhenyaBond/bi_lab/raw/master/ratings.zip', 'ratings.zip')
+        'https://github.com/ZhenyaBond/bi_lab/raw/master/ratings.zip',
+        'ratings.zip')
     print("Downloaded successfully.")
 
 
