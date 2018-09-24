@@ -1,11 +1,8 @@
 """ArgumentsProcessing."""
 import argparse
 import csv
-import gzip
-import io
 import json
 import os
-import requests
 import urllib.request
 import xml.etree.cElementTree as ET
 import yaml
@@ -51,13 +48,17 @@ year = []
 for y in range(250):
     year.append(all_data[y][2])
 dict_year = dict((i, year.count(i)) for i in year)
-print(year)
 
 rating = []
 for y in range(250):
     rating.append(all_data[y][1])
 dict_rat = dict((i, rating.count(i)) for i in rating)
-print(rating)
+
+title = []
+for y in range(250):
+    title.append(all_data[y][0])
+dict_year = dict((i, year.count(i)) for i in title)
+print(title)
 
 
 if arguments.year:
@@ -98,6 +99,11 @@ if arguments.output:
                         y[1]) + '\n')
     out_file.close()
 
+if arguments.rate is False and arguments.year is False\
+        and arguments.all is False \
+        and arguments.histogram is False and arguments.output is False\
+        and arguments.download is False and arguments.format is False:
+    print(title)
 # zip file conversion
     exists = os.path.isfile('movies.csv')
 
@@ -126,22 +132,8 @@ def read_zip():
 
 
 read_zip()
-with open('movies.csv', 'r') as csvfile:
-        csvreader = csv.reader(csvfile)
-for row in csvreader:
-        print(row)
 
 
-def get_gz():
-    """ReadJsonData."""
-    gz_url = 'https://wiki.mozilla.org/images/f/ff/Example.json.gz'
-    gz_get = requests.get(gz_url)
-    with gzip.open(io.BytesIO(gz_get.content), 'r') as data:
-        file = json.loads(data.read())
-    print("This is content of JSON file: {0}".format(file))
-
-
-get_gz()
 if arguments.download:
     if not exists:
         get_zip()
@@ -150,7 +142,7 @@ if arguments.download:
 
 
 if arguments.format == 'json':
-    with open('movies.csv') as csv_file:
+    with open('movies.csv', encoding='ISO-8859-1') as csv_file:
         reader = csv.DictReader(csv_file)
         rows = list(reader)
     with open('json_format.json', 'w') as csv_file:
@@ -159,7 +151,7 @@ if arguments.format == 'json':
 
 
 if arguments.format == 'xml':
-    with open('movies.csv') as csv_file:
+    with open('movies.csv', encoding='ISO-8859-1') as csv_file:
         text = csv_file.readlines()
     root = ET.Element('root')
     root.text = str(text)
@@ -169,7 +161,7 @@ if arguments.format == 'xml':
 
 
 if arguments.format == 'csv':
-    with open('movies.csv') as csv_file:
+    with open('movies.csv', encoding='ISO-8859-1') as csv_file:
         csvreader = csv.reader(csv_file)
         text = []
         for row in csvreader:
