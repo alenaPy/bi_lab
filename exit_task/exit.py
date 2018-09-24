@@ -65,8 +65,8 @@ csv_file = 'programs.csv'
 # zip file
 exists = os.path.isfile(csv_file)
 if not exists:
-    zip_url = 'https://github.com/SimonenkoV/bi_lab/raw/Exit_Task/exit_task/' \
-              'programs.zip'
+    zip_url = 'https://github.com/SimonenkoV/bi_lab/raw/Exit_Task/' \
+              'exit_task/programs.zip'
     zip_get = requests.get(zip_url)
     data = zipfile.ZipFile(io.BytesIO(zip_get.content))
     data.extractall()
