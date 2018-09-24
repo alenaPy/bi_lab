@@ -9,7 +9,7 @@ print(re.findall(r'\w+@\w+\.\w+', text))
 text = 'wreyru erfh elfjrlfje ldfl nfn fn'
 all_words = re.findall(r'\w+', text)
 for word in all_words:
-    if len(word) in {3,5}:
+    if len(word) in {3, 5}:
         print(word)
 
 
