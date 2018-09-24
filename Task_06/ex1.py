@@ -2,69 +2,95 @@
 
 import argparse
 import csv
-import gzip
-import io
+from dicttoxml import dicttoxml
 import json
 import os
 import requests
-import zipfile
+import sys
+import yaml
 
-parser = argparse.ArgumentParser(description="Choose download type")
 
-parser.add_argument('--type', help='zip - load .zip file, gzip - gzip, '
-                                   'no args - both')
+def dload(url):
+    """Download a file via a URL, return file descriptor."""
+    try:
+        req = requests.get(url)
+        file_name = url.rsplit('/', 1)[1]
+    except Exception:
+        print('URL or connection error has occurred')
+        parser.print_help()
+    else:
+        if os.path.isfile(file_name):
+            print('The file already exists')
+        else:
+            with open(file_name, 'wb') as le_file:
+                le_file.write(req.content)
+            print('The file has been successfully downloaded')
+            file_name
+            return file_name
 
-arg = parser.parse_args()
 
-if arg.type == 'zip':
-    # zip file
-    exists = os.path.isfile('FL_insurance_sample.csv')
-    if not exists:
-        zip_url = 'http://spatialkeydocs.s3.amazonaws.com/' \
-                  'FL_insurance_sample.csv.zip'
-        zip_get = requests.get(zip_url)
-        data = zipfile.ZipFile(io.BytesIO(zip_get.content))
-        data.extractall()
-        data.close()
+rank = []
+film = []
+year = []
+try:
+    with open('ratings.list',
+              'r', encoding='ISO-8859-1') as top250:
+        i = 0
+        films = []
+        for line in top250:
+            if 'New  Distribution  Votes  Rank  Title' in line:
+                break
+        for line in top250:
+            if i >= 250:
+                break
+            else:
+                rank.append(line.strip().split('  ')[2].lstrip())
+                film.append(line.strip().rstrip(')').split('  ')[3]
+                            .split(' (')[0])
+                year.append(line.strip().rstrip('/I)').split('  ')[3]
+                            .split(' (')[1])
+                i += 1
+except FileNotFoundError:
+    print('The file hasn\'t been found')
 
-    list = []
-    with open('FL_insurance_sample.csv') as csvfile:
-        csv_rd = csv.reader(csvfile)
-        for row in csv_rd:
-            list.append(row)
-            print(', '.join(row))
-    print('=' * 200)
 
-if arg.type == 'gzip':
-    # gzipped json file
-    gz_url = 'https://wiki.mozilla.org/images/f/ff/Example.json.gz'
-    gz_get = requests.get(gz_url)
-    with gzip.open(io.BytesIO(gz_get.content), 'r') as data:
-        file = json.loads(data.read())
-    print(file)
+# data for xml|json|yaml
+data = []
+for i in range(len(film)):
+    data.append({"Id": str(i + 1), "Film": film[i], "Year": str(year[i]),
+                 "Rating": str(rank[i])})
 
-if not arg.type:
-    # zip file
-    exists = os.path.isfile('FL_insurance_sample.csv')
-    if not exists:
-        zip_url = 'http://spatialkeydocs.s3.amazonaws.com/' \
-                  'FL_insurance_sample.csv.zip'
-        zip_get = requests.get(zip_url)
-        data = zipfile.ZipFile(io.BytesIO(zip_get.content))
-        data.extractall()
-        data.close()
+parser = argparse.ArgumentParser(description="Download and conversion are"
+                                             "available")
 
-    list = []
-    with open('FL_insurance_sample.csv') as csvfile:
-        csv_rd = csv.reader(csvfile)
-        for row in csv_rd:
-            list.append(row)
-            print(', '.join(row))
-    print('=' * 200)
+parser.add_argument('--download', help='download a file using given VALID url')
+parser.add_argument('--format', help='csv | json | xml | yaml')
 
-    # gzipped json file
-    gz_url = 'https://wiki.mozilla.org/images/f/ff/Example.json.gz'
-    gz_get = requests.get(gz_url)
-    with gzip.open(io.BytesIO(gz_get.content), 'r') as data:
-        file = json.loads(data.read())
-    print(file)
+args = parser.parse_args()
+
+if args.download:
+    dload(args.download)
+if args.format == 'csv':
+    dat = []
+    dat.append('ID;Film;Year;Rating')
+    for i in range(len(film)):
+        dat.append(str(i + 1) + ';' + film[i] + ';' +
+                   str(year[i]) + ';' + str(rank[i]))
+    csv_dat = csv.reader(dat, delimiter=';')
+    for row in csv_dat:
+        print(';'.join(row))
+if args.format == 'json':
+    json_dat = json.dumps(data)
+    print(json_dat)
+if args.format == 'xml':
+    xml_dat = dicttoxml(data, custom_root='root', attr_type=False)
+    print(xml_dat)
+if args.format == 'yaml':
+    yaml_dat = yaml.safe_dump(data, explicit_start=True,
+                              default_flow_style=False)
+    print(yaml_dat)
+if len(sys.argv) == 1:
+    # zip_url = 'http://spatialkeydocs.s3.amazonaws.com/
+    # FL_insurance_sample.csv.zip'
+    # gz_url = 'https://wiki.mozilla.org/images/f/ff/Example.json.gz'
+    dload('https://wiki.mozilla.org/images/f/ff/Example.json.gz')
