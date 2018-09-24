@@ -1,0 +1,1803 @@
+<?xml version="1.0"?>
+<csv_data>
+<row>
+    <car_id>1</car_id>
+    <model>A6</model>
+    <manufacture_year>2004</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.33</engine_displacement>
+    <engine_power>215</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>490</mileage>
+    <acceleration>8.1</acceleration>
+    <color>Maroon</color>
+    <state>new</state>
+    <fuel_consumption>12.2</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>2</car_id>
+    <model>R8 V10</model>
+    <manufacture_year>2011</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.27</engine_displacement>
+    <engine_power>187</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>972</mileage>
+    <acceleration>8.7</acceleration>
+    <color>Turquoise</color>
+    <state>with mileage</state>
+    <fuel_consumption>10.81</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>3</car_id>
+    <model>Q5</model>
+    <manufacture_year>2004</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.69</engine_displacement>
+    <engine_power>193</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>381</mileage>
+    <acceleration>8.8</acceleration>
+    <color>Blue</color>
+    <state>with mileage</state>
+    <fuel_consumption>11.86</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>4</car_id>
+    <model>A4</model>
+    <manufacture_year>2011</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2</engine_displacement>
+    <engine_power>245</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>669</mileage>
+    <acceleration>7.9</acceleration>
+    <color>Puce</color>
+    <state>with mileage</state>
+    <fuel_consumption>11.21</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>5</car_id>
+    <model>A1</model>
+    <manufacture_year>1992</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.42</engine_displacement>
+    <engine_power>231</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>495</mileage>
+    <acceleration>7.7</acceleration>
+    <color>Yellow</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.65</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>6</car_id>
+    <model>TT</model>
+    <manufacture_year>1992</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.69</engine_displacement>
+    <engine_power>228</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>320</mileage>
+    <acceleration>8.3</acceleration>
+    <color>Turquoise</color>
+    <state>new</state>
+    <fuel_consumption>10.35</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>7</car_id>
+    <model>R8</model>
+    <manufacture_year>1988</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.03</engine_displacement>
+    <engine_power>130</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>763</mileage>
+    <acceleration>6.7</acceleration>
+    <color>Purple</color>
+    <state>new</state>
+    <fuel_consumption>10.06</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>8</car_id>
+    <model>Q5</model>
+    <manufacture_year>1997</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.66</engine_displacement>
+    <engine_power>222</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>396</mileage>
+    <acceleration>6.9</acceleration>
+    <color>Maroon</color>
+    <state>new</state>
+    <fuel_consumption>9.73</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>9</car_id>
+    <model>A4</model>
+    <manufacture_year>1990</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.35</engine_displacement>
+    <engine_power>218</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>162</mileage>
+    <acceleration>8.8</acceleration>
+    <color>Teal</color>
+    <state>new</state>
+    <fuel_consumption>10.81</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>10</car_id>
+    <model>Q5</model>
+    <manufacture_year>1999</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2.09</engine_displacement>
+    <engine_power>224</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>821</mileage>
+    <acceleration>6.5</acceleration>
+    <color>Crimson</color>
+    <state>new</state>
+    <fuel_consumption>11.5</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>11</car_id>
+    <model>Q3</model>
+    <manufacture_year>1992</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2.09</engine_displacement>
+    <engine_power>222</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>612</mileage>
+    <acceleration>5.9</acceleration>
+    <color>Orange</color>
+    <state>new</state>
+    <fuel_consumption>10.06</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>12</car_id>
+    <model>Q5</model>
+    <manufacture_year>2007</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>1.32</engine_displacement>
+    <engine_power>204</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>791</mileage>
+    <acceleration>7.3</acceleration>
+    <color>Blue</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.72</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>13</car_id>
+    <model>A1</model>
+    <manufacture_year>1993</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.68</engine_displacement>
+    <engine_power>128</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>576</mileage>
+    <acceleration>5.6</acceleration>
+    <color>Orange</color>
+    <state>with mileage</state>
+    <fuel_consumption>11.57</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>14</car_id>
+    <model>A1</model>
+    <manufacture_year>1994</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.7</engine_displacement>
+    <engine_power>213</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>202</mileage>
+    <acceleration>6.9</acceleration>
+    <color>Red</color>
+    <state>with mileage</state>
+    <fuel_consumption>12.56</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>15</car_id>
+    <model>A4 Cabriolet</model>
+    <manufacture_year>2002</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.38</engine_displacement>
+    <engine_power>246</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>572</mileage>
+    <acceleration>6.8</acceleration>
+    <color>Purple</color>
+    <state>new</state>
+    <fuel_consumption>9</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>16</car_id>
+    <model>A4 Cabriolet</model>
+    <manufacture_year>1993</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.79</engine_displacement>
+    <engine_power>185</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>754</mileage>
+    <acceleration>7.1</acceleration>
+    <color>Teal</color>
+    <state>with mileage</state>
+    <fuel_consumption>11.42</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>17</car_id>
+    <model>Q5</model>
+    <manufacture_year>2011</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.45</engine_displacement>
+    <engine_power>213</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>608</mileage>
+    <acceleration>7.9</acceleration>
+    <color>Blue</color>
+    <state>new</state>
+    <fuel_consumption>10.76</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>18</car_id>
+    <model>A1</model>
+    <manufacture_year>2001</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.52</engine_displacement>
+    <engine_power>129</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>371</mileage>
+    <acceleration>5.5</acceleration>
+    <color>Teal</color>
+    <state>with mileage</state>
+    <fuel_consumption>11.02</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>19</car_id>
+    <model>TT</model>
+    <manufacture_year>2007</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>1.48</engine_displacement>
+    <engine_power>196</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>929</mileage>
+    <acceleration>6.8</acceleration>
+    <color>Goldenrod</color>
+    <state>with mileage</state>
+    <fuel_consumption>11.2</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>20</car_id>
+    <model>R8</model>
+    <manufacture_year>2009</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2.41</engine_displacement>
+    <engine_power>162</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>789</mileage>
+    <acceleration>5.1</acceleration>
+    <color>Fuscia</color>
+    <state>new</state>
+    <fuel_consumption>9.89</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>21</car_id>
+    <model>A1</model>
+    <manufacture_year>2011</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.36</engine_displacement>
+    <engine_power>218</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>501</mileage>
+    <acceleration>7</acceleration>
+    <color>Aquamarine</color>
+    <state>new</state>
+    <fuel_consumption>12.99</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>22</car_id>
+    <model>A4 Cabriolet</model>
+    <manufacture_year>2000</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.03</engine_displacement>
+    <engine_power>203</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>866</mileage>
+    <acceleration>7.2</acceleration>
+    <color>Blue</color>
+    <state>new</state>
+    <fuel_consumption>11.63</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>23</car_id>
+    <model>R8 V10</model>
+    <manufacture_year>1960</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.01</engine_displacement>
+    <engine_power>186</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>691</mileage>
+    <acceleration>5.8</acceleration>
+    <color>Maroon</color>
+    <state>new</state>
+    <fuel_consumption>11.43</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>24</car_id>
+    <model>A4 Cabriolet</model>
+    <manufacture_year>2007</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.33</engine_displacement>
+    <engine_power>213</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>452</mileage>
+    <acceleration>5.7</acceleration>
+    <color>Pink</color>
+    <state>new</state>
+    <fuel_consumption>12.22</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>25</car_id>
+    <model>A3</model>
+    <manufacture_year>2011</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2.83</engine_displacement>
+    <engine_power>194</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>835</mileage>
+    <acceleration>5.4</acceleration>
+    <color>Red</color>
+    <state>new</state>
+    <fuel_consumption>11.5</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>26</car_id>
+    <model>A6</model>
+    <manufacture_year>1995</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.66</engine_displacement>
+    <engine_power>229</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>890</mileage>
+    <acceleration>7.6</acceleration>
+    <color>Crimson</color>
+    <state>new</state>
+    <fuel_consumption>9.58</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>27</car_id>
+    <model>A4</model>
+    <manufacture_year>1990</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>1.64</engine_displacement>
+    <engine_power>121</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>595</mileage>
+    <acceleration>5.3</acceleration>
+    <color>Pink</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.27</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>28</car_id>
+    <model>A6</model>
+    <manufacture_year>2003</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2.82</engine_displacement>
+    <engine_power>189</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>751</mileage>
+    <acceleration>5.4</acceleration>
+    <color>Purple</color>
+    <state>new</state>
+    <fuel_consumption>12.93</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>29</car_id>
+    <model>Q7</model>
+    <manufacture_year>1998</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2.74</engine_displacement>
+    <engine_power>181</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>123</mileage>
+    <acceleration>6</acceleration>
+    <color>Orange</color>
+    <state>new</state>
+    <fuel_consumption>10.25</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>30</car_id>
+    <model>A8</model>
+    <manufacture_year>1992</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.88</engine_displacement>
+    <engine_power>243</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>552</mileage>
+    <acceleration>5.9</acceleration>
+    <color>Yellow</color>
+    <state>with mileage</state>
+    <fuel_consumption>10.25</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>31</car_id>
+    <model>A8</model>
+    <manufacture_year>2000</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.78</engine_displacement>
+    <engine_power>168</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>328</mileage>
+    <acceleration>5.5</acceleration>
+    <color>Puce</color>
+    <state>new</state>
+    <fuel_consumption>9.8</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>32</car_id>
+    <model>R8 V10</model>
+    <manufacture_year>1998</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2.91</engine_displacement>
+    <engine_power>227</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>33</mileage>
+    <acceleration>7.1</acceleration>
+    <color>Mauv</color>
+    <state>new</state>
+    <fuel_consumption>12.51</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>33</car_id>
+    <model>Q3</model>
+    <manufacture_year>2008</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.79</engine_displacement>
+    <engine_power>161</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>723</mileage>
+    <acceleration>8.6</acceleration>
+    <color>Orange</color>
+    <state>with mileage</state>
+    <fuel_consumption>10.66</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>34</car_id>
+    <model>TT</model>
+    <manufacture_year>1994</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.2</engine_displacement>
+    <engine_power>234</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>558</mileage>
+    <acceleration>6</acceleration>
+    <color>Red</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.89</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>35</car_id>
+    <model>Q5</model>
+    <manufacture_year>2002</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.04</engine_displacement>
+    <engine_power>173</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>152</mileage>
+    <acceleration>7.8</acceleration>
+    <color>Yellow</color>
+    <state>with mileage</state>
+    <fuel_consumption>10.59</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>36</car_id>
+    <model>Q8</model>
+    <manufacture_year>2003</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.2</engine_displacement>
+    <engine_power>126</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>630</mileage>
+    <acceleration>5.9</acceleration>
+    <color>Mauv</color>
+    <state>new</state>
+    <fuel_consumption>9.28</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>37</car_id>
+    <model>R8 V10</model>
+    <manufacture_year>1996</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.9</engine_displacement>
+    <engine_power>220</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>997</mileage>
+    <acceleration>8.2</acceleration>
+    <color>Orange</color>
+    <state>new</state>
+    <fuel_consumption>11.16</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>38</car_id>
+    <model>Q3</model>
+    <manufacture_year>1995</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>1.28</engine_displacement>
+    <engine_power>177</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>780</mileage>
+    <acceleration>5.4</acceleration>
+    <color>Turquoise</color>
+    <state>with mileage</state>
+    <fuel_consumption>10.86</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>39</car_id>
+    <model>Q3</model>
+    <manufacture_year>1993</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.24</engine_displacement>
+    <engine_power>211</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>208</mileage>
+    <acceleration>8.9</acceleration>
+    <color>Maroon</color>
+    <state>with mileage</state>
+    <fuel_consumption>12.68</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>40</car_id>
+    <model>A4</model>
+    <manufacture_year>1999</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.46</engine_displacement>
+    <engine_power>245</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>26</mileage>
+    <acceleration>7.2</acceleration>
+    <color>Purple</color>
+    <state>new</state>
+    <fuel_consumption>9.53</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>41</car_id>
+    <model>Q5</model>
+    <manufacture_year>1996</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.59</engine_displacement>
+    <engine_power>125</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>43</mileage>
+    <acceleration>6.7</acceleration>
+    <color>Mauv</color>
+    <state>new</state>
+    <fuel_consumption>10.77</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>42</car_id>
+    <model>Q7</model>
+    <manufacture_year>1998</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>1.94</engine_displacement>
+    <engine_power>193</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>668</mileage>
+    <acceleration>5.9</acceleration>
+    <color>Teal</color>
+    <state>new</state>
+    <fuel_consumption>9.3</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>43</car_id>
+    <model>A1</model>
+    <manufacture_year>2010</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.11</engine_displacement>
+    <engine_power>218</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>816</mileage>
+    <acceleration>6.3</acceleration>
+    <color>Orange</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.19</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>44</car_id>
+    <model>A4</model>
+    <manufacture_year>1997</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.73</engine_displacement>
+    <engine_power>166</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>436</mileage>
+    <acceleration>5.5</acceleration>
+    <color>Puce</color>
+    <state>with mileage</state>
+    <fuel_consumption>11.33</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>45</car_id>
+    <model>Q3</model>
+    <manufacture_year>1992</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.48</engine_displacement>
+    <engine_power>174</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>315</mileage>
+    <acceleration>5.9</acceleration>
+    <color>Goldenrod</color>
+    <state>new</state>
+    <fuel_consumption>10.58</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>46</car_id>
+    <model>A4</model>
+    <manufacture_year>1998</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>1.56</engine_displacement>
+    <engine_power>132</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>83</mileage>
+    <acceleration>9</acceleration>
+    <color>Blue</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.41</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>47</car_id>
+    <model>TT</model>
+    <manufacture_year>2008</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.89</engine_displacement>
+    <engine_power>210</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>348</mileage>
+    <acceleration>7</acceleration>
+    <color>Indigo</color>
+    <state>new</state>
+    <fuel_consumption>9.71</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>48</car_id>
+    <model>A3</model>
+    <manufacture_year>1986</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.07</engine_displacement>
+    <engine_power>200</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>797</mileage>
+    <acceleration>7.5</acceleration>
+    <color>Khaki</color>
+    <state>new</state>
+    <fuel_consumption>11.26</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>49</car_id>
+    <model>Q3</model>
+    <manufacture_year>2003</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.03</engine_displacement>
+    <engine_power>170</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>312</mileage>
+    <acceleration>6.3</acceleration>
+    <color>Mauv</color>
+    <state>new</state>
+    <fuel_consumption>11.2</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>50</car_id>
+    <model>A1</model>
+    <manufacture_year>1994</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>1.25</engine_displacement>
+    <engine_power>141</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>488</mileage>
+    <acceleration>5.8</acceleration>
+    <color>Red</color>
+    <state>new</state>
+    <fuel_consumption>9.91</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>51</car_id>
+    <model>A6</model>
+    <manufacture_year>1987</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.78</engine_displacement>
+    <engine_power>125</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>155</mileage>
+    <acceleration>6.8</acceleration>
+    <color>Maroon</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.15</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>52</car_id>
+    <model>Q7</model>
+    <manufacture_year>1992</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.1</engine_displacement>
+    <engine_power>125</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>722</mileage>
+    <acceleration>5.9</acceleration>
+    <color>Turquoise</color>
+    <state>new</state>
+    <fuel_consumption>9.51</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>53</car_id>
+    <model>Q5</model>
+    <manufacture_year>2012</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.66</engine_displacement>
+    <engine_power>150</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>283</mileage>
+    <acceleration>8.6</acceleration>
+    <color>Red</color>
+    <state>new</state>
+    <fuel_consumption>10.58</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>54</car_id>
+    <model>A1</model>
+    <manufacture_year>2009</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.44</engine_displacement>
+    <engine_power>167</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>241</mileage>
+    <acceleration>5.6</acceleration>
+    <color>Green</color>
+    <state>new</state>
+    <fuel_consumption>12.49</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>55</car_id>
+    <model>TT</model>
+    <manufacture_year>1992</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.91</engine_displacement>
+    <engine_power>206</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>225</mileage>
+    <acceleration>6.8</acceleration>
+    <color>Goldenrod</color>
+    <state>new</state>
+    <fuel_consumption>9.21</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>56</car_id>
+    <model>Q7</model>
+    <manufacture_year>1995</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.22</engine_displacement>
+    <engine_power>205</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>477</mileage>
+    <acceleration>6.4</acceleration>
+    <color>Maroon</color>
+    <state>with mileage</state>
+    <fuel_consumption>12.46</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>57</car_id>
+    <model>Q7</model>
+    <manufacture_year>1993</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.62</engine_displacement>
+    <engine_power>177</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>189</mileage>
+    <acceleration>6.8</acceleration>
+    <color>Orange</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.62</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>58</car_id>
+    <model>A4</model>
+    <manufacture_year>2007</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.35</engine_displacement>
+    <engine_power>140</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>309</mileage>
+    <acceleration>6.9</acceleration>
+    <color>Green</color>
+    <state>new</state>
+    <fuel_consumption>9.33</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>59</car_id>
+    <model>A1</model>
+    <manufacture_year>1995</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.54</engine_displacement>
+    <engine_power>214</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>577</mileage>
+    <acceleration>8.8</acceleration>
+    <color>Indigo</color>
+    <state>new</state>
+    <fuel_consumption>11.45</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>60</car_id>
+    <model>R8</model>
+    <manufacture_year>1986</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.67</engine_displacement>
+    <engine_power>144</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>456</mileage>
+    <acceleration>8.4</acceleration>
+    <color>Fuscia</color>
+    <state>new</state>
+    <fuel_consumption>9.28</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>61</car_id>
+    <model>A4</model>
+    <manufacture_year>2012</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.96</engine_displacement>
+    <engine_power>249</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>282</mileage>
+    <acceleration>8.3</acceleration>
+    <color>Blue</color>
+    <state>new</state>
+    <fuel_consumption>11.51</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>62</car_id>
+    <model>TT</model>
+    <manufacture_year>1985</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.85</engine_displacement>
+    <engine_power>231</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>358</mileage>
+    <acceleration>5.4</acceleration>
+    <color>Mauv</color>
+    <state>new</state>
+    <fuel_consumption>11.69</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>63</car_id>
+    <model>Q7</model>
+    <manufacture_year>2002</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3</engine_displacement>
+    <engine_power>169</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>354</mileage>
+    <acceleration>7.9</acceleration>
+    <color>Puce</color>
+    <state>with mileage</state>
+    <fuel_consumption>11.44</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>64</car_id>
+    <model>A4 Cabriolet</model>
+    <manufacture_year>2011</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.48</engine_displacement>
+    <engine_power>168</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>561</mileage>
+    <acceleration>7</acceleration>
+    <color>Purple</color>
+    <state>with mileage</state>
+    <fuel_consumption>12.97</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>65</car_id>
+    <model>TT</model>
+    <manufacture_year>1997</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.47</engine_displacement>
+    <engine_power>141</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>913</mileage>
+    <acceleration>6.9</acceleration>
+    <color>Puce</color>
+    <state>with mileage</state>
+    <fuel_consumption>12.96</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>66</car_id>
+    <model>A6</model>
+    <manufacture_year>2008</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.41</engine_displacement>
+    <engine_power>232</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>796</mileage>
+    <acceleration>6</acceleration>
+    <color>Indigo</color>
+    <state>with mileage</state>
+    <fuel_consumption>12.72</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>67</car_id>
+    <model>A4 Cabriolet</model>
+    <manufacture_year>2008</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>1.49</engine_displacement>
+    <engine_power>249</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>517</mileage>
+    <acceleration>6.4</acceleration>
+    <color>Turquoise</color>
+    <state>new</state>
+    <fuel_consumption>11.5</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>68</car_id>
+    <model>R8 V10</model>
+    <manufacture_year>2003</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.91</engine_displacement>
+    <engine_power>123</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>588</mileage>
+    <acceleration>7</acceleration>
+    <color>Pink</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.65</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>69</car_id>
+    <model>R8 V10</model>
+    <manufacture_year>2000</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.58</engine_displacement>
+    <engine_power>145</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>889</mileage>
+    <acceleration>7</acceleration>
+    <color>Mauv</color>
+    <state>with mileage</state>
+    <fuel_consumption>10.32</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>70</car_id>
+    <model>Q7</model>
+    <manufacture_year>2009</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.95</engine_displacement>
+    <engine_power>204</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>756</mileage>
+    <acceleration>7.5</acceleration>
+    <color>Pink</color>
+    <state>new</state>
+    <fuel_consumption>12.08</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>71</car_id>
+    <model>R8 V10</model>
+    <manufacture_year>1990</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.05</engine_displacement>
+    <engine_power>196</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>353</mileage>
+    <acceleration>6.5</acceleration>
+    <color>Violet</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.5</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>72</car_id>
+    <model>A3</model>
+    <manufacture_year>1989</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.41</engine_displacement>
+    <engine_power>156</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>770</mileage>
+    <acceleration>8.3</acceleration>
+    <color>Puce</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.16</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>73</car_id>
+    <model>Q8</model>
+    <manufacture_year>2005</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.3</engine_displacement>
+    <engine_power>129</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>958</mileage>
+    <acceleration>6.6</acceleration>
+    <color>Red</color>
+    <state>new</state>
+    <fuel_consumption>9.08</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>74</car_id>
+    <model>A4 Cabriolet</model>
+    <manufacture_year>2007</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.3</engine_displacement>
+    <engine_power>160</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>23</mileage>
+    <acceleration>7.4</acceleration>
+    <color>Maroon</color>
+    <state>with mileage</state>
+    <fuel_consumption>11.77</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>75</car_id>
+    <model>A8</model>
+    <manufacture_year>1995</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.17</engine_displacement>
+    <engine_power>183</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>126</mileage>
+    <acceleration>5.7</acceleration>
+    <color>Orange</color>
+    <state>with mileage</state>
+    <fuel_consumption>12.1</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>76</car_id>
+    <model>A3</model>
+    <manufacture_year>2000</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.96</engine_displacement>
+    <engine_power>185</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>804</mileage>
+    <acceleration>7.8</acceleration>
+    <color>Pink</color>
+    <state>new</state>
+    <fuel_consumption>10.8</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>77</car_id>
+    <model>A4</model>
+    <manufacture_year>1999</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.35</engine_displacement>
+    <engine_power>197</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>831</mileage>
+    <acceleration>5.7</acceleration>
+    <color>Khaki</color>
+    <state>new</state>
+    <fuel_consumption>9.41</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>78</car_id>
+    <model>A4</model>
+    <manufacture_year>1984</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.01</engine_displacement>
+    <engine_power>210</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>399</mileage>
+    <acceleration>7.9</acceleration>
+    <color>Green</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.79</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>79</car_id>
+    <model>A4 Cabriolet</model>
+    <manufacture_year>1994</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.67</engine_displacement>
+    <engine_power>143</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>764</mileage>
+    <acceleration>7.6</acceleration>
+    <color>Teal</color>
+    <state>new</state>
+    <fuel_consumption>9.48</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>80</car_id>
+    <model>A3</model>
+    <manufacture_year>1995</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.21</engine_displacement>
+    <engine_power>229</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>222</mileage>
+    <acceleration>6.9</acceleration>
+    <color>Violet</color>
+    <state>new</state>
+    <fuel_consumption>12.09</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>81</car_id>
+    <model>Q5</model>
+    <manufacture_year>1997</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.25</engine_displacement>
+    <engine_power>206</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>129</mileage>
+    <acceleration>8.7</acceleration>
+    <color>Goldenrod</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.76</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>82</car_id>
+    <model>A1</model>
+    <manufacture_year>1991</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.15</engine_displacement>
+    <engine_power>233</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>825</mileage>
+    <acceleration>5.4</acceleration>
+    <color>Red</color>
+    <state>new</state>
+    <fuel_consumption>11.92</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>83</car_id>
+    <model>A1</model>
+    <manufacture_year>1989</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.37</engine_displacement>
+    <engine_power>122</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>2</seat_count>
+    <mileage>138</mileage>
+    <acceleration>8.7</acceleration>
+    <color>Green</color>
+    <state>new</state>
+    <fuel_consumption>11.92</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>84</car_id>
+    <model>R8</model>
+    <manufacture_year>1992</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.44</engine_displacement>
+    <engine_power>219</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>161</mileage>
+    <acceleration>5.8</acceleration>
+    <color>Turquoise</color>
+    <state>new</state>
+    <fuel_consumption>11.47</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>85</car_id>
+    <model>Q7</model>
+    <manufacture_year>1992</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.26</engine_displacement>
+    <engine_power>208</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>393</mileage>
+    <acceleration>8.9</acceleration>
+    <color>Red</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.33</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>86</car_id>
+    <model>Q8</model>
+    <manufacture_year>1990</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2.58</engine_displacement>
+    <engine_power>170</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>301</mileage>
+    <acceleration>5.3</acceleration>
+    <color>Maroon</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.23</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>87</car_id>
+    <model>A6</model>
+    <manufacture_year>2010</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>1.28</engine_displacement>
+    <engine_power>207</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>904</mileage>
+    <acceleration>9</acceleration>
+    <color>Pink</color>
+    <state>with mileage</state>
+    <fuel_consumption>12.65</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>88</car_id>
+    <model>TT</model>
+    <manufacture_year>2000</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.89</engine_displacement>
+    <engine_power>140</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>803</mileage>
+    <acceleration>6.7</acceleration>
+    <color>Yellow</color>
+    <state>new</state>
+    <fuel_consumption>11.86</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>89</car_id>
+    <model>A4</model>
+    <manufacture_year>2012</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>2.19</engine_displacement>
+    <engine_power>161</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>5</seat_count>
+    <mileage>321</mileage>
+    <acceleration>5.9</acceleration>
+    <color>Aquamarine</color>
+    <state>new</state>
+    <fuel_consumption>9.72</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>90</car_id>
+    <model>A6</model>
+    <manufacture_year>2008</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>1.73</engine_displacement>
+    <engine_power>125</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>422</mileage>
+    <acceleration>9</acceleration>
+    <color>Blue</color>
+    <state>new</state>
+    <fuel_consumption>9.63</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>91</car_id>
+    <model>A3</model>
+    <manufacture_year>1974</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.58</engine_displacement>
+    <engine_power>132</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>101</mileage>
+    <acceleration>5.7</acceleration>
+    <color>Blue</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.42</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>92</car_id>
+    <model>A4 Cabriolet</model>
+    <manufacture_year>2000</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.84</engine_displacement>
+    <engine_power>164</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>727</mileage>
+    <acceleration>7.2</acceleration>
+    <color>Puce</color>
+    <state>with mileage</state>
+    <fuel_consumption>10.25</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>93</car_id>
+    <model>A3</model>
+    <manufacture_year>1996</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>3.34</engine_displacement>
+    <engine_power>202</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>653</mileage>
+    <acceleration>7.3</acceleration>
+    <color>Red</color>
+    <state>new</state>
+    <fuel_consumption>12.68</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>94</car_id>
+    <model>A8</model>
+    <manufacture_year>1985</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>3.03</engine_displacement>
+    <engine_power>219</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>840</mileage>
+    <acceleration>6.6</acceleration>
+    <color>Aquamarine</color>
+    <state>with mileage</state>
+    <fuel_consumption>9.29</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>95</car_id>
+    <model>TT</model>
+    <manufacture_year>1994</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>1.05</engine_displacement>
+    <engine_power>135</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>627</mileage>
+    <acceleration>5.5</acceleration>
+    <color>Orange</color>
+    <state>new</state>
+    <fuel_consumption>11.62</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+<row>
+    <car_id>96</car_id>
+    <model>A3</model>
+    <manufacture_year>1996</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>1.38</engine_displacement>
+    <engine_power>154</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>92</mileage>
+    <acceleration>7.9</acceleration>
+    <color>Red</color>
+    <state>with mileage</state>
+    <fuel_consumption>13</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Coupe</body_style>
+</row>
+<row>
+    <car_id>97</car_id>
+    <model>Q7</model>
+    <manufacture_year>1998</manufacture_year>
+    <fuel_type>gasoline</fuel_type>
+    <engine_displacement>2.93</engine_displacement>
+    <engine_power>167</engine_power>
+    <transmittion>mechanic</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>759</mileage>
+    <acceleration>8.2</acceleration>
+    <color>Indigo</color>
+    <state>with mileage</state>
+    <fuel_consumption>10.05</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>98</car_id>
+    <model>Q7</model>
+    <manufacture_year>2002</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>2.55</engine_displacement>
+    <engine_power>241</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>4</door_count>
+    <seat_count>5</seat_count>
+    <mileage>599</mileage>
+    <acceleration>7.3</acceleration>
+    <color>Turquoise</color>
+    <state>new</state>
+    <fuel_consumption>10.74</fuel_consumption>
+    <drive_unit>FF</drive_unit>
+    <body_style>Crossover</body_style>
+</row>
+<row>
+    <car_id>99</car_id>
+    <model>R8 V10</model>
+    <manufacture_year>2007</manufacture_year>
+    <fuel_type>diesiel</fuel_type>
+    <engine_displacement>3.14</engine_displacement>
+    <engine_power>176</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>376</mileage>
+    <acceleration>5.5</acceleration>
+    <color>Blue</color>
+    <state>new</state>
+    <fuel_consumption>9.53</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Hatchback</body_style>
+</row>
+<row>
+    <car_id>100</car_id>
+    <model>A6</model>
+    <manufacture_year>1988</manufacture_year>
+    <fuel_type>hybrid</fuel_type>
+    <engine_displacement>1.33</engine_displacement>
+    <engine_power>141</engine_power>
+    <transmittion>automat</transmittion>
+    <door_count>2</door_count>
+    <seat_count>2</seat_count>
+    <mileage>497</mileage>
+    <acceleration>8.3</acceleration>
+    <color>Crimson</color>
+    <state>new</state>
+    <fuel_consumption>11.31</fuel_consumption>
+    <drive_unit>4WD</drive_unit>
+    <body_style>Sedan</body_style>
+</row>
+</csv_data>
