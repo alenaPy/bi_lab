@@ -41,10 +41,10 @@ try:
                 year = c[1][0:4:1]
                 movies.append([name, year, rate])
                 counter += 1
-                if (arguments.year is False and arguments.rate is False
-                    and arguments.histogram is False
-                    and arguments.all is False and arguments.output is False
-                    and arguments.format is False):
+                if (arguments.year is False and arguments.rate is False and
+                        arguments.histogram is False and
+                        arguments.all is False and arguments.output is False and
+                        arguments.format is False):
                     print(name)
             if counter == 250:
                 break
