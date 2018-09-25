@@ -5,10 +5,10 @@ import gzip
 import io
 import json
 import os
+import requests
 import urllib.request
 import xml.etree.cElementTree as ET
 import yaml
-import requests
 import zipfile
 
 
